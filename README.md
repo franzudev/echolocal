@@ -104,7 +104,7 @@ on the action button.
   answers
 - Nine styles and eighteen color themes
 - Messages from Home Assistant, timers on screen
-- Photos from Immich, Photoprism and Google Photos, as wallpaper, a screen saver or a full-screen app
+- Photos from Photoprism and Google Photos, as wallpaper, a screen saver or a full-screen app
 - Weather built in from Open-Meteo, or a Home Assistant weather entity
 - Home Assistant alarm-panel controls with zones, keypad and 14 designs
 - Doorbell video, two-way audio, ring notifications and detection history

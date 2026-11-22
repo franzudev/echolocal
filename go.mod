@@ -7,7 +7,7 @@ require (
 	charm.land/bubbletea/v2 v2.0.8
 	charm.land/lipgloss/v2 v2.0.5
 	github.com/charmbracelet/colorprofile v0.4.3
-	github.com/franzudev/libcountertop v0.1.1-photoprism.1
+	github.com/franzudev/libcountertop v0.1.1-photoprism.2
 	github.com/go-gui-org/go-gui v0.94.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
@@ -137,4 +137,4 @@ require (
 	rsc.io/qr v0.2.0 // indirect
 )
 
-replace github.com/ygelfand/libcountertop => github.com/franzudev/libcountertop v0.1.1-photoprism.1
+replace github.com/ygelfand/libcountertop => github.com/franzudev/libcountertop v0.1.1-photoprism.2
