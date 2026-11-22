@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
 
-	"github.com/ygelfand/echolocal/internal/host/bootimg"
+	"github.com/franzudev/echolocal/internal/host/bootimg"
 )
 
 // Amazon's adbd drops privileges however ro.secure is set.

@@ -1,6 +1,6 @@
 package speaker
 
-import "github.com/ygelfand/libcountertop/pkg/runtime/component"
+import "github.com/franzudev/libcountertop/pkg/runtime/component"
 
 func (s *Player) Startup() component.Progress {
 	s.devMu.Lock()

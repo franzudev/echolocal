@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ygelfand/libcountertop/pkg/build/native"
+	"github.com/franzudev/libcountertop/pkg/build/native"
 
-	"github.com/ygelfand/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/board"
 )
 
 func main() {

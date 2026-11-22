@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/aec"
+	"github.com/franzudev/libcountertop/pkg/audio/aec"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/lib/audio"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/lib/audio"
 )
 
 // ECHO_REPLAY is a capture from `echod ctl audio record echo`; WAVs go to ECHO_REPLAY_OUT.

@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	sharedwifi "github.com/ygelfand/libcountertop/pkg/network/wifi"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
+	sharedwifi "github.com/franzudev/libcountertop/pkg/network/wifi"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func init() {

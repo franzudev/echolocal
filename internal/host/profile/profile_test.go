@@ -3,8 +3,8 @@ package profile
 import (
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/host/assets"
-	"github.com/ygelfand/echolocal/internal/host/sysimg"
+	"github.com/franzudev/echolocal/internal/host/assets"
+	"github.com/franzudev/echolocal/internal/host/sysimg"
 )
 
 // Fire OS 6 on biscuit has no package manager.

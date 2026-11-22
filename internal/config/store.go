@@ -3,10 +3,10 @@ package config
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
-	"github.com/ygelfand/libcountertop/pkg/settings/storage"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/settings/storage"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var once sync.Once

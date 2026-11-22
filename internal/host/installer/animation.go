@@ -3,8 +3,8 @@ package installer
 import (
 	"strings"
 
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/update"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/update"
 )
 
 // ledctrl blocks in getService for the LedController binder service echod does not publish.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/hardware/indicate"
+	"github.com/franzudev/echolocal/internal/hardware/indicate"
 )
 
 // Each frame is one 36-byte i2c write.

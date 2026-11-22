@@ -7,8 +7,8 @@ import (
 	"charm.land/lipgloss/v2"
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/echolocal/internal/host/installer"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/host/installer"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var styleKey = lipgloss.NewStyle().Foreground(lipgloss.Color("244")).Width(12)

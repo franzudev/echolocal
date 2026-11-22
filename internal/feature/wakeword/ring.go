@@ -6,12 +6,12 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/wakesettings"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/assistant/wakesettings"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 const ringDomain = "ring"

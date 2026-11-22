@@ -1,5 +1,5 @@
 package main
 
-import "github.com/ygelfand/echolocal/internal/cli/echolocal"
+import "github.com/franzudev/echolocal/internal/cli/echolocal"
 
 func main() { echolocal.Execute() }

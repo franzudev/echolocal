@@ -3,11 +3,11 @@
 package broadcast
 
 import (
-	shared "github.com/ygelfand/libcountertop/pkg/media/broadcast"
+	shared "github.com/franzudev/libcountertop/pkg/media/broadcast"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/message"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/message"
 )
 
 func messages() shared.Messages {

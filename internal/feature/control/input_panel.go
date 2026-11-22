@@ -3,10 +3,10 @@
 package control
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/input/touch"
-	harness "github.com/ygelfand/libcountertop/pkg/runtime/control"
+	"github.com/franzudev/libcountertop/pkg/input/touch"
+	harness "github.com/franzudev/libcountertop/pkg/runtime/control"
 
-	hwtouch "github.com/ygelfand/echolocal/internal/hardware/touch"
+	hwtouch "github.com/franzudev/echolocal/internal/hardware/touch"
 )
 
 func configureTouch(options *harness.InputOptions) {

@@ -38,7 +38,7 @@ type Image struct {
 
 const Tag = "boot-images"
 
-const downloads = "https://github.com/ygelfand/echolocal/releases/download/" + Tag + "/"
+const downloads = "https://github.com/franzudev/echolocal/releases/download/" + Tag + "/"
 
 // Its ramdisk keeps MTK headers: skip the 512-byte ROOTFS header before the gzip.
 var Biscuit = Image{

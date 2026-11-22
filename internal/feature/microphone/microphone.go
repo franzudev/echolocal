@@ -6,13 +6,13 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/say"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/say"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
 )
 
 func init() {

@@ -3,7 +3,7 @@ package speaker
 import (
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func TestOneDriverHearsBothChannels(t *testing.T) {

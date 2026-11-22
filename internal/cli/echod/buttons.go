@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/libcountertop/pkg/input"
+	"github.com/franzudev/libcountertop/pkg/input"
 )
 
 func newButtonsCmd() *cobra.Command {

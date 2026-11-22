@@ -7,20 +7,20 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/upsample"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/system/diag"
-	"github.com/ygelfand/libcountertop/pkg/system/metrics"
+	"github.com/franzudev/libcountertop/pkg/audio/upsample"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/system/diag"
+	"github.com/franzudev/libcountertop/pkg/system/metrics"
 
-	"github.com/ygelfand/echolocal/internal/android/setup"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/bluetooth"
-	"github.com/ygelfand/echolocal/internal/feature/wakeword"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/lib/wake"
+	"github.com/franzudev/echolocal/internal/android/setup"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/bluetooth"
+	"github.com/franzudev/echolocal/internal/feature/wakeword"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/lib/wake"
 )
 
 func init() {

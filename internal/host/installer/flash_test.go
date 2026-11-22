@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/host/bootimg"
+	"github.com/franzudev/echolocal/internal/host/bootimg"
 )
 
 func TestReadyNeedsRootAndPermissiveOutsideRecovery(t *testing.T) {

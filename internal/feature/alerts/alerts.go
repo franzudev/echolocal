@@ -3,14 +3,14 @@ package alerts
 import (
 	"sync"
 
-	shared "github.com/ygelfand/libcountertop/pkg/audio/alerts"
-	"github.com/ygelfand/libcountertop/pkg/audio/tone"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	shared "github.com/franzudev/libcountertop/pkg/audio/alerts"
+	"github.com/franzudev/libcountertop/pkg/audio/tone"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/tones"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/tones"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func init() { component.Register(sharedcomponent.Device, Get, sharedcomponent.Order(30)) }

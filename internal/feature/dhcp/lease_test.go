@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func TestHostnameIsTheDeviceName(t *testing.T) {

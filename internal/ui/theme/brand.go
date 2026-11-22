@@ -1,6 +1,6 @@
 package theme
 
-import sharedtheme "github.com/ygelfand/libcountertop/pkg/display/theme"
+import sharedtheme "github.com/franzudev/libcountertop/pkg/display/theme"
 
 // The mark's own colours, sampled from the artwork.
 var (

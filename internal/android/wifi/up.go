@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 const (

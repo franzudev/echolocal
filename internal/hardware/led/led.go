@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ygelfand/echolocal/internal/hardware/indicate"
+	"github.com/franzudev/echolocal/internal/hardware/indicate"
 )
 
 // DefaultPath is the is31fl3236 i2c device directory.

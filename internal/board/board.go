@@ -3,7 +3,7 @@ package board
 import (
 	"strings"
 
-	"github.com/ygelfand/echolocal/internal/lib/asp"
+	"github.com/franzudev/echolocal/internal/lib/asp"
 )
 
 type Cap uint32

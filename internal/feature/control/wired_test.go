@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/settings/settingtest"
+	"github.com/franzudev/libcountertop/pkg/settings/settingtest"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 var coverage = settingtest.Shared.With(settingtest.Coverage{

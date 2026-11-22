@@ -1,6 +1,6 @@
 package board
 
-import "github.com/ygelfand/echolocal/internal/layout"
+import "github.com/franzudev/echolocal/internal/layout"
 
 // Athena is the 2nd-generation Echo Show 8.
 var Athena = Board{

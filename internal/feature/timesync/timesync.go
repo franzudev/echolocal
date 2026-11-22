@@ -5,16 +5,16 @@ import (
 	"sync"
 	"time"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
-	"github.com/ygelfand/libcountertop/pkg/settings/timezone"
-	"github.com/ygelfand/libcountertop/pkg/system/clock"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/settings/timezone"
+	"github.com/franzudev/libcountertop/pkg/system/clock"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/dhcp"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/dhcp"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func init() {

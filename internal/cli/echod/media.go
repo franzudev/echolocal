@@ -7,10 +7,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/sound"
+	"github.com/franzudev/libcountertop/pkg/audio/sound"
 
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func newMediaCmd() *cobra.Command {

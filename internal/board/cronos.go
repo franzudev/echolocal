@@ -1,6 +1,6 @@
 package board
 
-import "github.com/ygelfand/echolocal/internal/layout"
+import "github.com/franzudev/echolocal/internal/layout"
 
 // Cronos is the 2nd-generation Echo Show 5.
 var Cronos = Board{

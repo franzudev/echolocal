@@ -3,16 +3,16 @@ package volume
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/display/idleview"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	sharedview "github.com/ygelfand/libcountertop/pkg/display/volume"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/idleview"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	sharedview "github.com/franzudev/libcountertop/pkg/display/volume"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/feedback"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/tessera"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/feedback"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/tessera"
 )
 
 var (

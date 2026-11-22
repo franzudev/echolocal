@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/ygelfand/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/android/prop"
 )
 
 const deviceProp = "ro.product.device"

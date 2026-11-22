@@ -1,8 +1,8 @@
 package board
 
 import (
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/lib/asp"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/lib/asp"
 )
 
 // Crown is the 1st-generation Echo Show 8.

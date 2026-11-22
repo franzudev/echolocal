@@ -4,18 +4,18 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/network/releases"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/safe"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
-	"github.com/ygelfand/libcountertop/pkg/system/firmware"
+	"github.com/franzudev/libcountertop/pkg/network/releases"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/safe"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/system/firmware"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/feedback"
-	"github.com/ygelfand/echolocal/internal/hardware/led"
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/update"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/feedback"
+	"github.com/franzudev/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/update"
 )
 
 var get = sync.OnceValue(func() *firmware.Firmware[update.Manifest] {

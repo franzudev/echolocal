@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/lib/asp"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/lib/asp"
 )
 
 // Biscuit is the 2nd-generation Echo Dot.

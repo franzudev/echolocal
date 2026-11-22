@@ -4,20 +4,20 @@ import (
 	"sync"
 	"time"
 
-	sharedlib "github.com/ygelfand/libcountertop/pkg/display/dashboard"
-	"github.com/ygelfand/libcountertop/pkg/display/idleview"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	"github.com/ygelfand/libcountertop/pkg/display/theme"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	sharedlib "github.com/franzudev/libcountertop/pkg/display/dashboard"
+	"github.com/franzudev/libcountertop/pkg/display/idleview"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	"github.com/franzudev/libcountertop/pkg/display/theme"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/poster"
-	"github.com/ygelfand/echolocal/internal/feature/screen"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/timesync"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/poster"
+	"github.com/franzudev/echolocal/internal/feature/screen"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/timesync"
 )
 
 func init() {

@@ -2,10 +2,10 @@ package control
 
 import (
 	"github.com/spf13/cobra"
-	harness "github.com/ygelfand/libcountertop/pkg/runtime/control"
+	harness "github.com/franzudev/libcountertop/pkg/runtime/control"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func settings() []harness.Setting[config.Config] {

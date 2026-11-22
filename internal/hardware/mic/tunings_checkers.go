@@ -2,6 +2,6 @@
 
 package mic
 
-import "github.com/ygelfand/echolocal/internal/lib/subband"
+import "github.com/franzudev/echolocal/internal/lib/subband"
 
 var tunings = []subband.Tuning{subband.CheckersFBFV2}

@@ -3,8 +3,8 @@ package installer
 import (
 	"bytes"
 
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/parts"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/parts"
 )
 
 func (r *run) ownService() bool { return r.board().ServiceName == layout.Service }

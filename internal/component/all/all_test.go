@@ -6,9 +6,9 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/hardware/led"
 )
 
 func TestSupportedBoardsHaveUniqueEntityKeys(t *testing.T) {

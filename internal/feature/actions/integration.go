@@ -3,9 +3,9 @@
 package actions
 
 import (
-	sharedha "github.com/ygelfand/libcountertop/pkg/homeassistant"
+	sharedha "github.com/franzudev/libcountertop/pkg/homeassistant"
 
-	"github.com/ygelfand/echolocal/internal/feature/states"
+	"github.com/franzudev/echolocal/internal/feature/states"
 )
 
 func (a *Actions) followIntegration() {

@@ -3,12 +3,12 @@ package tones
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/tones"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/audio/tones"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func init() { component.Register(sharedcomponent.Device, Get, sharedcomponent.Order(15)) }

@@ -4,14 +4,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/display/geometry"
-	"github.com/ygelfand/libcountertop/pkg/display/panel"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
+	"github.com/franzudev/libcountertop/pkg/display/geometry"
+	"github.com/franzudev/libcountertop/pkg/display/panel"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 const socket = "/dev/socket/echolocal-surface"

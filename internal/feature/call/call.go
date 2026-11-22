@@ -3,18 +3,18 @@ package call
 import (
 	"sync"
 
-	sharedcall "github.com/ygelfand/libcountertop/pkg/media/call"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedcall "github.com/franzudev/libcountertop/pkg/media/call"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/detect"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/tones"
-	"github.com/ygelfand/echolocal/internal/feature/web"
-	"github.com/ygelfand/echolocal/internal/hardware/buttons"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/detect"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/tones"
+	"github.com/franzudev/echolocal/internal/feature/web"
+	"github.com/franzudev/echolocal/internal/hardware/buttons"
 )
 
 type componentCall struct{ *sharedcall.Calls }

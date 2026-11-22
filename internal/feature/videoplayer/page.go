@@ -3,13 +3,13 @@
 package videoplayer
 
 import (
-	sharedvolume "github.com/ygelfand/libcountertop/pkg/audio/volume"
-	sharedpage "github.com/ygelfand/libcountertop/pkg/display/videopage"
+	sharedvolume "github.com/franzudev/libcountertop/pkg/audio/volume"
+	sharedpage "github.com/franzudev/libcountertop/pkg/display/videopage"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/volume"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/volume"
 )
 
 func NewPage(c sharedpage.Controls) *sharedpage.Page {

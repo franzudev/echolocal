@@ -5,14 +5,14 @@ package gui
 import (
 	gogui "github.com/go-gui-org/go-gui/gui"
 
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/tuner"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/tuner"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/radio"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/radio"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func extendRadio(look *widgets.UI, o *screens.Options, app func() *screens.App) {

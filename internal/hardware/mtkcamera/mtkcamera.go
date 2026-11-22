@@ -1,9 +1,9 @@
 package mtkcamera
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/camera/camerafeed"
+	"github.com/franzudev/libcountertop/pkg/camera/camerafeed"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 type Config = camerafeed.Config

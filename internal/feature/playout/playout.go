@@ -1,12 +1,12 @@
 package playout
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/media/pcm"
-	"github.com/ygelfand/libcountertop/pkg/media/playout"
+	"github.com/franzudev/libcountertop/pkg/media/pcm"
+	"github.com/franzudev/libcountertop/pkg/media/playout"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func New() *playout.Output {

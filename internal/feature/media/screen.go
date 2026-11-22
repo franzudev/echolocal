@@ -5,15 +5,15 @@ package media
 import (
 	"sync"
 
-	sharedcard "github.com/ygelfand/libcountertop/pkg/display/mediacard"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedcard "github.com/franzudev/libcountertop/pkg/display/mediacard"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 var cardOnce sync.Once

@@ -2,9 +2,9 @@ package echolocal
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/ygelfand/libcountertop/pkg/host/wifisetup"
+	"github.com/franzudev/libcountertop/pkg/host/wifisetup"
 
-	"github.com/ygelfand/echolocal/internal/android/wifi"
+	"github.com/franzudev/echolocal/internal/android/wifi"
 )
 
 func newWifiCmd() *cobra.Command {

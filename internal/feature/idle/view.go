@@ -1,14 +1,14 @@
 package idle
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/display/idleview"
+	"github.com/franzudev/libcountertop/pkg/display/idleview"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/photos"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/visuals"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
-	"github.com/ygelfand/echolocal/internal/hardware/gpu"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/photos"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/visuals"
+	"github.com/franzudev/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/hardware/gpu"
 )
 
 func settings(c config.Config) idleview.Settings {

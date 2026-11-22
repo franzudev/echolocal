@@ -5,11 +5,11 @@ package radio
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/homeassistant/radio"
+	"github.com/franzudev/libcountertop/pkg/homeassistant/radio"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/product"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var get = sync.OnceValue(func() *radio.Radio {

@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func TestRescalingWhatIsQueuedNeverPlaysSilence(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/board"
 )
 
 func newBoardCmd() *cobra.Command {

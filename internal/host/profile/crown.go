@@ -1,9 +1,9 @@
 package profile
 
 import (
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/host/bootimg"
-	"github.com/ygelfand/echolocal/internal/host/sysimg"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/host/bootimg"
+	"github.com/franzudev/echolocal/internal/host/sysimg"
 )
 
 var crown = Profile{

@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/board"
 )
 
 var dacSwitches = []string{"HPL Output Mixer L_DAC Switch", "HPR Output Mixer R_DAC Switch"}

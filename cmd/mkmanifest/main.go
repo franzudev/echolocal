@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ygelfand/echolocal/internal/host/profile"
-	"github.com/ygelfand/echolocal/internal/update"
+	"github.com/franzudev/echolocal/internal/host/profile"
+	"github.com/franzudev/echolocal/internal/update"
 )
 
 func main() {

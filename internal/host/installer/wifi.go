@@ -1,8 +1,8 @@
 package installer
 
 import (
-	"github.com/ygelfand/echolocal/internal/android/wifi"
-	"github.com/ygelfand/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/android/wifi"
+	"github.com/franzudev/echolocal/internal/board"
 )
 
 func bringUpWifi(r *run) (string, bool, error) {

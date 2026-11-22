@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ygelfand/echolocal/internal/android/prop"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var (

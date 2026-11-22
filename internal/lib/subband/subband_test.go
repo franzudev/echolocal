@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/fft"
+	"github.com/franzudev/libcountertop/pkg/audio/fft"
 )
 
 const testFrame = 320

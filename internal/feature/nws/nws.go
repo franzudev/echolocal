@@ -5,14 +5,14 @@ package nws
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/homeassistant/nws"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/remember"
+	"github.com/franzudev/libcountertop/pkg/homeassistant/nws"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/remember"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/product"
-	featureremember "github.com/ygelfand/echolocal/internal/feature/remember"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/product"
+	featureremember "github.com/franzudev/echolocal/internal/feature/remember"
 )
 
 func init() {

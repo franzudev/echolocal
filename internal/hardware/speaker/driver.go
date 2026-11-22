@@ -3,7 +3,7 @@ package speaker
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/sound"
+	"github.com/franzudev/libcountertop/pkg/audio/sound"
 )
 
 type Driver = sound.Driver[*Player]

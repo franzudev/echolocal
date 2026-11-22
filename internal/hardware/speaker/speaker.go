@@ -11,19 +11,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/alsa"
-	"github.com/ygelfand/libcountertop/pkg/audio/mix"
-	"github.com/ygelfand/libcountertop/pkg/audio/tone"
-	"github.com/ygelfand/libcountertop/pkg/audio/upsample"
-	"github.com/ygelfand/libcountertop/pkg/audio/volume"
-	"github.com/ygelfand/libcountertop/pkg/hook"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/safe"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
+	"github.com/franzudev/libcountertop/pkg/audio/alsa"
+	"github.com/franzudev/libcountertop/pkg/audio/mix"
+	"github.com/franzudev/libcountertop/pkg/audio/tone"
+	"github.com/franzudev/libcountertop/pkg/audio/upsample"
+	"github.com/franzudev/libcountertop/pkg/audio/volume"
+	"github.com/franzudev/libcountertop/pkg/hook"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/safe"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/lib/asp"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/lib/asp"
 )
 
 // The playback codec accepts one format only: 48 kHz, S16_LE, stereo.

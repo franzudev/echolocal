@@ -11,11 +11,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/upsample"
+	"github.com/franzudev/libcountertop/pkg/audio/upsample"
 
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/lib/audio"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/lib/audio"
 )
 
 const maxLag = 800

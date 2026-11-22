@@ -7,10 +7,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
 
-	"github.com/ygelfand/echolocal/internal/host/profile"
-	"github.com/ygelfand/echolocal/internal/update"
+	"github.com/franzudev/echolocal/internal/host/profile"
+	"github.com/franzudev/echolocal/internal/update"
 )
 
 func resolveEchod(

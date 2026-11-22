@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var ErrNoName = errors.New("no device name")

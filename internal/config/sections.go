@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
-	"github.com/ygelfand/libcountertop/pkg/settings/storage"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/settings/storage"
 )
 
 func sharedOf(c *Config) *schema.Shared { return &c.Shared }

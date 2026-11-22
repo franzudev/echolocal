@@ -1,9 +1,9 @@
 package dashboard
 
 import (
-	sharedlib "github.com/ygelfand/libcountertop/pkg/display/dashboard"
+	sharedlib "github.com/franzudev/libcountertop/pkg/display/dashboard"
 
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 var strip = sharedlib.NewTabs(func() { shell.Get().Redraw() })

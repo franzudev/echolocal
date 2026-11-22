@@ -1,10 +1,10 @@
 package wifi
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
-	"github.com/ygelfand/libcountertop/pkg/host/wifisetup"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/wifisetup"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 const dhcpService = "dhcpcd-wlan0"

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/camera/live"
+	"github.com/franzudev/libcountertop/pkg/camera/live"
 )
 
 func TestEveryCameraNameIsTranslated(t *testing.T) {

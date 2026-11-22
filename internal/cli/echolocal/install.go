@@ -11,12 +11,12 @@ import (
 	tea "charm.land/bubbletea/v2"
 	"charm.land/lipgloss/v2"
 	"github.com/spf13/cobra"
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
-	"github.com/ygelfand/libcountertop/pkg/host/prompt"
-	"github.com/ygelfand/libcountertop/pkg/host/wifisetup"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/prompt"
+	"github.com/franzudev/libcountertop/pkg/host/wifisetup"
 
-	"github.com/ygelfand/echolocal/internal/android/wifi"
-	"github.com/ygelfand/echolocal/internal/host/installer"
+	"github.com/franzudev/echolocal/internal/android/wifi"
+	"github.com/franzudev/echolocal/internal/host/installer"
 )
 
 var (

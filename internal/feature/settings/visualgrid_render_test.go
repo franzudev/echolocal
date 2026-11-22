@@ -5,9 +5,9 @@ package settings
 import (
 	"testing"
 
-	sharedvisual "github.com/ygelfand/libcountertop/pkg/display/visual"
+	sharedvisual "github.com/franzudev/libcountertop/pkg/display/visual"
 
-	"github.com/ygelfand/echolocal/internal/ui/visual"
+	"github.com/franzudev/echolocal/internal/ui/visual"
 )
 
 func TestEveryVisualHasAThumbnail(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	harness "github.com/ygelfand/libcountertop/pkg/runtime/control"
+	harness "github.com/franzudev/libcountertop/pkg/runtime/control"
 )
 
 // sockaddr_un holds 104 bytes on darwin.

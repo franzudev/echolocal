@@ -3,7 +3,7 @@ package defaults
 import (
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/board"
 )
 
 func TestBiscuitIsWhatItAlwaysWas(t *testing.T) {

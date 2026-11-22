@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func rcLines() [][]string {

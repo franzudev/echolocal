@@ -2,7 +2,7 @@
 
 package mic
 
-import "github.com/ygelfand/libcountertop/pkg/audio/alsa"
+import "github.com/franzudev/libcountertop/pkg/audio/alsa"
 
 func openCapture() (stream, error) {
 	return alsa.Open(Card, CaptureDevice, alsa.Config{

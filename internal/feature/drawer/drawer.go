@@ -3,16 +3,16 @@ package drawer
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/display/drawer"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/drawer"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/screen"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	hwtouch "github.com/ygelfand/echolocal/internal/hardware/touch"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/screen"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	hwtouch "github.com/franzudev/echolocal/internal/hardware/touch"
 )
 
 func init() {

@@ -1,6 +1,6 @@
 package config
 
-import "github.com/ygelfand/echolocal/internal/defaults"
+import "github.com/franzudev/echolocal/internal/defaults"
 
 type Ring struct {
 	Reaction string `json:"reaction"`

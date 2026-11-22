@@ -1,10 +1,10 @@
 package shell
 
 import (
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/component"
 )
 
 var shell = sharedshell.New()

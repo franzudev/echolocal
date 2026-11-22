@@ -3,9 +3,9 @@ package detect
 import (
 	"sync"
 
-	sharedwake "github.com/ygelfand/libcountertop/pkg/inference/wake"
+	sharedwake "github.com/franzudev/libcountertop/pkg/inference/wake"
 
-	"github.com/ygelfand/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/hardware/led"
 )
 
 type wakeBusy struct {

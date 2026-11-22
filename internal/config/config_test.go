@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/defaults"
+	"github.com/franzudev/echolocal/internal/defaults"
 )
 
 func load(t *testing.T) *Store {

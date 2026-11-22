@@ -3,10 +3,10 @@ package activity
 import (
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/activity"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/assistant/activity"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/component"
 )
 
 func TestAnEndedTurnIsFiredToHomeAssistant(t *testing.T) {

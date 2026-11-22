@@ -1,10 +1,10 @@
 package component
 
 import (
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
 
-	"github.com/ygelfand/libcountertop/pkg/hook"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/hook"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 )
 
 var Settings setting.Registry

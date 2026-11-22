@@ -5,16 +5,16 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	shared "github.com/ygelfand/libcountertop/pkg/actions"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/voice"
+	shared "github.com/franzudev/libcountertop/pkg/actions"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/voice"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/alarm"
-	"github.com/ygelfand/echolocal/internal/feature/broadcast"
-	"github.com/ygelfand/echolocal/internal/feature/call"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/alarm"
+	"github.com/franzudev/echolocal/internal/feature/broadcast"
+	"github.com/franzudev/echolocal/internal/feature/call"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
 )
 
 func init() { component.Register(sharedcomponent.Network, Get) }

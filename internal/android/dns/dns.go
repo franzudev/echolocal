@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/android/prop"
 )
 
 // dhcpcd's hook sets dhcp.wlan0.dns* from the lease; no framework promotes them to net.dns*.

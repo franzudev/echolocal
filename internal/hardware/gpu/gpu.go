@@ -1,9 +1,9 @@
 package gpu
 
 import (
-	sharedgpu "github.com/ygelfand/libcountertop/pkg/display/gpu"
+	sharedgpu "github.com/franzudev/libcountertop/pkg/display/gpu"
 
-	"github.com/ygelfand/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/hardware/display"
 )
 
 var renderer = sharedgpu.New(display.Get())

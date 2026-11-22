@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 // beam.go steers a 7-mic ring; athena's 4 mics are not one.

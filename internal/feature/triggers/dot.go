@@ -2,7 +2,7 @@
 
 package triggers
 
-import setting "github.com/ygelfand/libcountertop/pkg/settings"
+import setting "github.com/franzudev/libcountertop/pkg/settings"
 
 func commandNames() []string { return nil }
 

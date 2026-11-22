@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/lib/subband"
+	"github.com/franzudev/echolocal/internal/lib/subband"
 )
 
 const compassLease = time.Second

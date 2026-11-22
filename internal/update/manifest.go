@@ -11,8 +11,8 @@ import (
 	"runtime"
 	"time"
 
-	httpfetch "github.com/ygelfand/libcountertop/pkg/fetch"
-	"github.com/ygelfand/libcountertop/pkg/network/releases"
+	httpfetch "github.com/franzudev/libcountertop/pkg/fetch"
+	"github.com/franzudev/libcountertop/pkg/network/releases"
 )
 
 // Home Assistant ranks Version with AwesomeVersion; an unrankable one pins the update card on.

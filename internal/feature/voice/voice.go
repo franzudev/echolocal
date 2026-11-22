@@ -6,18 +6,18 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/satellite"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/assistant/satellite"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/alarm"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/timer"
-	"github.com/ygelfand/echolocal/internal/feature/wakeword"
-	"github.com/ygelfand/echolocal/internal/hardware/buttons"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/lib/wake"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/alarm"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/timer"
+	"github.com/franzudev/echolocal/internal/feature/wakeword"
+	"github.com/franzudev/echolocal/internal/hardware/buttons"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/lib/wake"
 )
 
 func init() {

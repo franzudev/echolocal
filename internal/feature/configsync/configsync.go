@@ -5,13 +5,13 @@ package configsync
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/display/syncview"
-	shared "github.com/ygelfand/libcountertop/pkg/settings/configsync"
+	"github.com/franzudev/libcountertop/pkg/display/syncview"
+	shared "github.com/franzudev/libcountertop/pkg/settings/configsync"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/web"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/web"
 )
 
 var Get = sync.OnceValue(func() *shared.Sync {

@@ -5,14 +5,14 @@ package weather
 import (
 	"sync"
 
-	haweather "github.com/ygelfand/libcountertop/pkg/homeassistant/weather"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	haweather "github.com/franzudev/libcountertop/pkg/homeassistant/weather"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	openmeteo "github.com/ygelfand/echolocal/internal/feature/openmeteo"
-	"github.com/ygelfand/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	openmeteo "github.com/franzudev/echolocal/internal/feature/openmeteo"
+	"github.com/franzudev/echolocal/internal/feature/product"
 )
 
 func init() {

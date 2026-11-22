@@ -9,12 +9,12 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/led"
 )
 
 func init() {

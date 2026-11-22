@@ -12,9 +12,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/system/metrics"
+	"github.com/franzudev/libcountertop/pkg/system/metrics"
 
-	"github.com/ygelfand/libcountertop/pkg/input"
+	"github.com/franzudev/libcountertop/pkg/input"
 )
 
 var current atomic.Pointer[Sensor]

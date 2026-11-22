@@ -3,13 +3,13 @@ package vision
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/camera/vision"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/camera/vision"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/livecam"
-	"github.com/ygelfand/echolocal/internal/hardware/buttons"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/livecam"
+	"github.com/franzudev/echolocal/internal/hardware/buttons"
 )
 
 func init() {

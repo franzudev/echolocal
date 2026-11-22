@@ -1,8 +1,8 @@
 package dhcp
 
 import (
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 const fallback = "echolocal"

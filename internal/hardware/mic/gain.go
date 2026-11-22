@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/alsa"
+	"github.com/franzudev/libcountertop/pkg/audio/alsa"
 )
 
 const (

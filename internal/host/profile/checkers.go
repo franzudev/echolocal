@@ -1,10 +1,10 @@
 package profile
 
 import (
-	"github.com/ygelfand/echolocal/internal/android/services"
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/host/bootimg"
-	"github.com/ygelfand/echolocal/internal/host/sysimg"
+	"github.com/franzudev/echolocal/internal/android/services"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/host/bootimg"
+	"github.com/franzudev/echolocal/internal/host/sysimg"
 )
 
 // checkers is the 1st-generation Echo Show 5.

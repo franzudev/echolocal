@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
-	"github.com/ygelfand/libcountertop/pkg/host/prompt"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/prompt"
 )
 
 var errNotRoot = errors.New(

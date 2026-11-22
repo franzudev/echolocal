@@ -3,13 +3,13 @@
 package triggers
 
 import (
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
-	"github.com/ygelfand/libcountertop/pkg/voice"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/voice"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/commands"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/commands"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
 )
 
 func commandNames() []string {

@@ -6,10 +6,10 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/alsa"
-	"github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/audio/alsa"
+	"github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/android/prop"
 )
 
 const MediaService = "media"

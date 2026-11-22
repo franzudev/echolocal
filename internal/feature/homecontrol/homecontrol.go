@@ -3,18 +3,18 @@ package homecontrol
 import (
 	"sync"
 
-	shareddashboard "github.com/ygelfand/libcountertop/pkg/display/dashboard"
-	sharedhome "github.com/ygelfand/libcountertop/pkg/homeassistant/homecontrol"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	shareddashboard "github.com/franzudev/libcountertop/pkg/display/dashboard"
+	sharedhome "github.com/franzudev/libcountertop/pkg/homeassistant/homecontrol"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/dashboard"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/states"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/dashboard"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/states"
 )
 
 var get = sync.OnceValue(func() *sharedhome.Engine {

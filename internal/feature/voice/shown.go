@@ -1,8 +1,8 @@
 package voice
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/assistant/turn"
-	"github.com/ygelfand/libcountertop/pkg/hook"
+	"github.com/franzudev/libcountertop/pkg/assistant/turn"
+	"github.com/franzudev/libcountertop/pkg/hook"
 )
 
 var Shown hook.Hook[turn.Showing]

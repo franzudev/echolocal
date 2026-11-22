@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"sync"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	libweb "github.com/ygelfand/libcountertop/pkg/runtime/web"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	libweb "github.com/franzudev/libcountertop/pkg/runtime/web"
 
-	"github.com/ygelfand/echolocal/internal/android/firewall"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/android/firewall"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func init() {

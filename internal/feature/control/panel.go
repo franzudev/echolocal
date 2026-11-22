@@ -10,13 +10,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/libcountertop/pkg/display/panel"
-	"github.com/ygelfand/libcountertop/pkg/runtime/control/screencmd"
+	"github.com/franzudev/libcountertop/pkg/display/panel"
+	"github.com/franzudev/libcountertop/pkg/runtime/control/screencmd"
 
-	pages "github.com/ygelfand/echolocal/internal/feature/settings"
-	screens "github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/splash"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
+	pages "github.com/franzudev/echolocal/internal/feature/settings"
+	screens "github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/splash"
+	"github.com/franzudev/echolocal/internal/hardware/display"
 )
 
 const (

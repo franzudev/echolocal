@@ -1,10 +1,10 @@
 package states
 
 import (
-	sharedstates "github.com/ygelfand/libcountertop/pkg/homeassistant/states"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedstates "github.com/franzudev/libcountertop/pkg/homeassistant/states"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/component"
 )
 
 type States = sharedstates.States

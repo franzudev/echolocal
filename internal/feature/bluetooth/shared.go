@@ -3,13 +3,13 @@ package bluetooth
 import (
 	"sync"
 
-	sharedproxy "github.com/ygelfand/libcountertop/pkg/bluetooth/proxy"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedproxy "github.com/franzudev/libcountertop/pkg/bluetooth/proxy"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/ble"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/ble"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 type Proxy struct{ *sharedproxy.Proxy }

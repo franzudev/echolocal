@@ -2,7 +2,7 @@
 
 package mic
 
-import "github.com/ygelfand/echolocal/internal/lib/subband"
+import "github.com/franzudev/echolocal/internal/lib/subband"
 
 // The capture codec accepts one format only: 16 kHz, S24_3LE, 9 channels.
 const (

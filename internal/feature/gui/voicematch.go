@@ -3,11 +3,11 @@
 package gui
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/feature/voicematch"
-	"github.com/ygelfand/echolocal/internal/feature/voicematch/panel"
+	"github.com/franzudev/echolocal/internal/feature/voicematch"
+	"github.com/franzudev/echolocal/internal/feature/voicematch/panel"
 )
 
 func extendVoiceMatch(_ *widgets.UI, o *screens.Options, _ func() *screens.App) {

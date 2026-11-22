@@ -5,17 +5,17 @@ import (
 	"sync"
 	"time"
 
-	sharedarbitration "github.com/ygelfand/libcountertop/pkg/assistant/arbitration"
-	sharedpeer "github.com/ygelfand/libcountertop/pkg/network/peer"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	sharedarbitration "github.com/franzudev/libcountertop/pkg/assistant/arbitration"
+	sharedpeer "github.com/franzudev/libcountertop/pkg/network/peer"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/android/firewall"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/network"
+	"github.com/franzudev/echolocal/internal/android/firewall"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/network"
 )
 
 var Setting = sharedarbitration.Setting{

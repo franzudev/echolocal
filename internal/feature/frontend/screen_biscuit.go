@@ -6,7 +6,7 @@ import (
 	"image"
 	"net/http"
 
-	"github.com/ygelfand/libcountertop/pkg/input/textentry"
+	"github.com/franzudev/libcountertop/pkg/input/textentry"
 )
 
 var shot func() (image.Image, error)

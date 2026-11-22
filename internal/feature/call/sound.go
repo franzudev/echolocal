@@ -3,11 +3,11 @@ package call
 import (
 	"context"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/tone"
+	"github.com/franzudev/libcountertop/pkg/audio/tone"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 type device struct{}

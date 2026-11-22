@@ -9,67 +9,67 @@ import (
 )
 
 var screenOnly = []string{
-	"github.com/ygelfand/libcountertop/pkg/display/panel",
-	"github.com/ygelfand/echolocal/internal/hardware/display",
-	"github.com/ygelfand/echolocal/internal/hardware/gpu",
-	"github.com/ygelfand/libcountertop/pkg/display/gpu",
-	"github.com/ygelfand/echolocal/internal/feature/visuals",
-	"github.com/ygelfand/echolocal/internal/feature/idle",
-	"github.com/ygelfand/echolocal/internal/feature/apps",
-	"github.com/ygelfand/libcountertop/pkg/display/apps",
-	"github.com/ygelfand/echolocal/internal/ui/visual",
-	"github.com/ygelfand/echolocal/internal/hardware/touch",
-	"github.com/ygelfand/echolocal/internal/ui/reveal",
-	"github.com/ygelfand/echolocal/internal/feature/brightness",
-	"github.com/ygelfand/echolocal/internal/hardware/alsps",
-	"github.com/ygelfand/echolocal/internal/feature/gui",
-	"github.com/ygelfand/echolocal/internal/feature/screen",
-	"github.com/ygelfand/echolocal/internal/feature/dashboard",
-	"github.com/ygelfand/echolocal/internal/feature/poster",
-	"github.com/ygelfand/echolocal/internal/feature/message",
-	"github.com/ygelfand/echolocal/internal/feature/assistant",
-	"github.com/ygelfand/echolocal/internal/feature/homecontrol",
-	"github.com/ygelfand/echolocal/internal/feature/a2dp",
-	"github.com/ygelfand/echolocal/internal/feature/drm",
-	"github.com/ygelfand/echolocal/internal/feature/weather",
-	"github.com/ygelfand/libcountertop/pkg/bluetooth",
-	"github.com/ygelfand/libcountertop/pkg/display/videopage",
-	"github.com/ygelfand/libcountertop/pkg/display/screens",
-	"github.com/ygelfand/libcountertop/pkg/display/gogui",
+	"github.com/franzudev/libcountertop/pkg/display/panel",
+	"github.com/franzudev/echolocal/internal/hardware/display",
+	"github.com/franzudev/echolocal/internal/hardware/gpu",
+	"github.com/franzudev/libcountertop/pkg/display/gpu",
+	"github.com/franzudev/echolocal/internal/feature/visuals",
+	"github.com/franzudev/echolocal/internal/feature/idle",
+	"github.com/franzudev/echolocal/internal/feature/apps",
+	"github.com/franzudev/libcountertop/pkg/display/apps",
+	"github.com/franzudev/echolocal/internal/ui/visual",
+	"github.com/franzudev/echolocal/internal/hardware/touch",
+	"github.com/franzudev/echolocal/internal/ui/reveal",
+	"github.com/franzudev/echolocal/internal/feature/brightness",
+	"github.com/franzudev/echolocal/internal/hardware/alsps",
+	"github.com/franzudev/echolocal/internal/feature/gui",
+	"github.com/franzudev/echolocal/internal/feature/screen",
+	"github.com/franzudev/echolocal/internal/feature/dashboard",
+	"github.com/franzudev/echolocal/internal/feature/poster",
+	"github.com/franzudev/echolocal/internal/feature/message",
+	"github.com/franzudev/echolocal/internal/feature/assistant",
+	"github.com/franzudev/echolocal/internal/feature/homecontrol",
+	"github.com/franzudev/echolocal/internal/feature/a2dp",
+	"github.com/franzudev/echolocal/internal/feature/drm",
+	"github.com/franzudev/echolocal/internal/feature/weather",
+	"github.com/franzudev/libcountertop/pkg/bluetooth",
+	"github.com/franzudev/libcountertop/pkg/display/videopage",
+	"github.com/franzudev/libcountertop/pkg/display/screens",
+	"github.com/franzudev/libcountertop/pkg/display/gogui",
 	"github.com/go-gui-org/go-gui/gui",
 }
 
 var castAudio = []string{
-	"github.com/ygelfand/echolocal/internal/feature/chromecast",
-	"github.com/ygelfand/echolocal/internal/feature/playout",
-	"github.com/ygelfand/libcountertop/pkg/media/cast",
-	"github.com/ygelfand/libcountertop/pkg/media/playout",
+	"github.com/franzudev/echolocal/internal/feature/chromecast",
+	"github.com/franzudev/echolocal/internal/feature/playout",
+	"github.com/franzudev/libcountertop/pkg/media/cast",
+	"github.com/franzudev/libcountertop/pkg/media/playout",
 }
 
-const dotYouTube = "github.com/ygelfand/libcountertop/pkg/media/cast/protocols/youtube"
+const dotYouTube = "github.com/franzudev/libcountertop/pkg/media/cast/protocols/youtube"
 
 var dotCast = []string{
 	dotYouTube,
-	"github.com/ygelfand/libcountertop/pkg/media/webm",
-	"github.com/ygelfand/libcountertop/pkg/media/hls",
+	"github.com/franzudev/libcountertop/pkg/media/webm",
+	"github.com/franzudev/libcountertop/pkg/media/hls",
 }
 
 var castOnly = []string{
-	"github.com/ygelfand/libcountertop/pkg/display/video",
-	"github.com/ygelfand/libcountertop/pkg/display/playoutscreen",
-	"github.com/ygelfand/libcountertop/pkg/media/cast/protocols/webreceiver",
-	"github.com/ygelfand/libcountertop/pkg/media/sealed",
-	"github.com/ygelfand/libcountertop/pkg/media/videostream",
+	"github.com/franzudev/libcountertop/pkg/display/video",
+	"github.com/franzudev/libcountertop/pkg/display/playoutscreen",
+	"github.com/franzudev/libcountertop/pkg/media/cast/protocols/webreceiver",
+	"github.com/franzudev/libcountertop/pkg/media/sealed",
+	"github.com/franzudev/libcountertop/pkg/media/videostream",
 }
 
 var cameraOnly = []string{
-	"github.com/ygelfand/echolocal/internal/feature/livecam",
-	"github.com/ygelfand/echolocal/internal/feature/rtspd",
-	"github.com/ygelfand/echolocal/internal/feature/vision",
-	"github.com/ygelfand/echolocal/internal/hardware/mtkcamera",
-	"github.com/ygelfand/libcountertop/pkg/camera/rtspd",
-	"github.com/ygelfand/libcountertop/pkg/media/rtsp",
-	"github.com/ygelfand/libcountertop/pkg/camera/onvif",
+	"github.com/franzudev/echolocal/internal/feature/livecam",
+	"github.com/franzudev/echolocal/internal/feature/rtspd",
+	"github.com/franzudev/echolocal/internal/feature/vision",
+	"github.com/franzudev/echolocal/internal/hardware/mtkcamera",
+	"github.com/franzudev/libcountertop/pkg/camera/rtspd",
+	"github.com/franzudev/libcountertop/pkg/media/rtsp",
+	"github.com/franzudev/libcountertop/pkg/camera/onvif",
 }
 
 func goList(t *testing.T, tags, pkg string, flags ...string) []string {
@@ -92,7 +92,7 @@ func goList(t *testing.T, tags, pkg string, flags ...string) []string {
 }
 
 func echodDeps(t *testing.T, tags string) []string {
-	return goList(t, tags, "github.com/ygelfand/echolocal/cmd/echod", "-deps")
+	return goList(t, tags, "github.com/franzudev/echolocal/cmd/echod", "-deps")
 }
 
 func TestOnlyHelperBoardsEmbedTheHelper(t *testing.T) {
@@ -106,7 +106,7 @@ func TestOnlyHelperBoardsEmbedTheHelper(t *testing.T) {
 		files := goList(
 			t,
 			tags,
-			"github.com/ygelfand/echolocal/internal/parts",
+			"github.com/franzudev/echolocal/internal/parts",
 			"-f",
 			`{{join .EmbedPatterns " "}}`,
 		)
@@ -141,12 +141,12 @@ func TestBiscuitLinksNoShowFeatures(t *testing.T) {
 
 var (
 	showTrees = []string{
-		"github.com/ygelfand/libcountertop/pkg/display/",
-		"github.com/ygelfand/libcountertop/pkg/camera/",
-		"github.com/ygelfand/libcountertop/pkg/input/touch",
+		"github.com/franzudev/libcountertop/pkg/display/",
+		"github.com/franzudev/libcountertop/pkg/camera/",
+		"github.com/franzudev/libcountertop/pkg/input/touch",
 	}
 	biscuitDisplay = []string{
-		"github.com/ygelfand/libcountertop/pkg/display/theme",
+		"github.com/franzudev/libcountertop/pkg/display/theme",
 	}
 )
 

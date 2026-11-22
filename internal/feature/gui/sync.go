@@ -3,15 +3,15 @@
 package gui
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	"github.com/ygelfand/libcountertop/pkg/display/syncview"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	"github.com/franzudev/libcountertop/pkg/display/syncview"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/feature/configsync"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/ui"
+	"github.com/franzudev/echolocal/internal/feature/configsync"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/ui"
 )
 
 func extendSync(look *widgets.UI, o *screens.Options, _ func() *screens.App) {

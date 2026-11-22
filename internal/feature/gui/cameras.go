@@ -3,28 +3,28 @@
 package gui
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/display/cameraview"
-	"github.com/ygelfand/libcountertop/pkg/display/doorbellview"
-	"github.com/ygelfand/libcountertop/pkg/display/homealarmview"
-	"github.com/ygelfand/libcountertop/pkg/display/photosview"
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/shell"
-	"github.com/ygelfand/libcountertop/pkg/display/thermostatview"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/cameraview"
+	"github.com/franzudev/libcountertop/pkg/display/doorbellview"
+	"github.com/franzudev/libcountertop/pkg/display/homealarmview"
+	"github.com/franzudev/libcountertop/pkg/display/photosview"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/shell"
+	"github.com/franzudev/libcountertop/pkg/display/thermostatview"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/hardware/display"
-	"github.com/ygelfand/echolocal/internal/hardware/gpu"
+	"github.com/franzudev/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/hardware/gpu"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/cameras"
-	"github.com/ygelfand/echolocal/internal/feature/doorbell"
-	"github.com/ygelfand/echolocal/internal/feature/homealarm"
-	"github.com/ygelfand/echolocal/internal/feature/homecontrol"
-	"github.com/ygelfand/echolocal/internal/feature/photos"
-	"github.com/ygelfand/echolocal/internal/feature/settings"
-	featureshell "github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/thermostat"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/cameras"
+	"github.com/franzudev/echolocal/internal/feature/doorbell"
+	"github.com/franzudev/echolocal/internal/feature/homealarm"
+	"github.com/franzudev/echolocal/internal/feature/homecontrol"
+	"github.com/franzudev/echolocal/internal/feature/photos"
+	"github.com/franzudev/echolocal/internal/feature/settings"
+	featureshell "github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/thermostat"
 )
 
 func extendCameras(ui *widgets.UI, o *screens.Options, _ func() *screens.App) {

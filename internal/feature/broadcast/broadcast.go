@@ -5,18 +5,18 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/tone"
-	shared "github.com/ygelfand/libcountertop/pkg/media/broadcast"
+	"github.com/franzudev/libcountertop/pkg/audio/tone"
+	shared "github.com/franzudev/libcountertop/pkg/media/broadcast"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/alarm"
-	"github.com/ygelfand/echolocal/internal/feature/call"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/tones"
-	"github.com/ygelfand/echolocal/internal/feature/voice"
-	"github.com/ygelfand/echolocal/internal/feature/web"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/alarm"
+	"github.com/franzudev/echolocal/internal/feature/call"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/tones"
+	"github.com/franzudev/echolocal/internal/feature/voice"
+	"github.com/franzudev/echolocal/internal/feature/web"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 var Get = sync.OnceValue(func() *shared.Broadcaster {

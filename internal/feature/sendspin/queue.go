@@ -3,10 +3,10 @@
 package sendspin
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/homeassistant/musicassistant"
-	sharedplayer "github.com/ygelfand/libcountertop/pkg/media/sendspin"
+	"github.com/franzudev/libcountertop/pkg/homeassistant/musicassistant"
+	sharedplayer "github.com/franzudev/libcountertop/pkg/media/sendspin"
 
-	"github.com/ygelfand/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/feature/product"
 )
 
 func queue() sharedplayer.Queue {

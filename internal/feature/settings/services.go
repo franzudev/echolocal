@@ -3,11 +3,11 @@
 package settings
 
 import (
-	sharedcast "github.com/ygelfand/libcountertop/pkg/display/settings/castpages"
+	sharedcast "github.com/franzudev/libcountertop/pkg/display/settings/castpages"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/chromecast"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/chromecast"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func servicePages() *sharedcast.Pages {

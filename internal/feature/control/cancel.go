@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
 )
 
 func cancelling() []*cobra.Command {

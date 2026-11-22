@@ -8,22 +8,22 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/display/cameraview"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	"github.com/ygelfand/libcountertop/pkg/fetch"
-	sharedha "github.com/ygelfand/libcountertop/pkg/homeassistant"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/cameraview"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	"github.com/franzudev/libcountertop/pkg/fetch"
+	sharedha "github.com/franzudev/libcountertop/pkg/homeassistant"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/dashboard"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/feature/homecontrol"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/dashboard"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/feature/homecontrol"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 const fetchWait = 15 * time.Second

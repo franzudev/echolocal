@@ -3,10 +3,10 @@ package reveal
 import (
 	_ "embed"
 
-	bootview "github.com/ygelfand/libcountertop/pkg/display/boot"
-	"github.com/ygelfand/libcountertop/pkg/display/theme"
+	bootview "github.com/franzudev/libcountertop/pkg/display/boot"
+	"github.com/franzudev/libcountertop/pkg/display/theme"
 
-	"github.com/ygelfand/echolocal/internal/ui"
+	"github.com/franzudev/echolocal/internal/ui"
 )
 
 //go:embed reveal.glsl

@@ -3,9 +3,9 @@
 package settings
 
 import (
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func preferences() sharedsettings.Preferences {

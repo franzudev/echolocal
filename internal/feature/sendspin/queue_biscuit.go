@@ -2,7 +2,7 @@
 
 package sendspin
 
-import sharedplayer "github.com/ygelfand/libcountertop/pkg/media/sendspin"
+import sharedplayer "github.com/franzudev/libcountertop/pkg/media/sendspin"
 
 func queue() sharedplayer.Queue { return nil }
 

@@ -2,9 +2,9 @@ package echod
 
 import (
 	"github.com/spf13/cobra"
-	harness "github.com/ygelfand/libcountertop/pkg/runtime/control"
+	harness "github.com/franzudev/libcountertop/pkg/runtime/control"
 
-	"github.com/ygelfand/echolocal/internal/feature/control"
+	"github.com/franzudev/echolocal/internal/feature/control"
 )
 
 func newCtlCmd() *cobra.Command {

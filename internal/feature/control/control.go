@@ -4,11 +4,11 @@ import (
 	"sync"
 	"time"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	harness "github.com/ygelfand/libcountertop/pkg/runtime/control"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	harness "github.com/franzudev/libcountertop/pkg/runtime/control"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
 
-	"github.com/ygelfand/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/component"
 )
 
 const Socket = "@echod"

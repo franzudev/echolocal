@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func TestRouteForEachModeAndPlug(t *testing.T) {

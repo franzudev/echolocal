@@ -3,17 +3,17 @@
 package settings
 
 import (
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	"github.com/ygelfand/libcountertop/pkg/say"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	"github.com/franzudev/libcountertop/pkg/say"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/a2dp"
-	"github.com/ygelfand/echolocal/internal/feature/airplay"
-	"github.com/ygelfand/echolocal/internal/feature/bluetooth"
-	"github.com/ygelfand/echolocal/internal/feature/chromecast"
-	"github.com/ygelfand/echolocal/internal/feature/sendspin"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/a2dp"
+	"github.com/franzudev/echolocal/internal/feature/airplay"
+	"github.com/franzudev/echolocal/internal/feature/bluetooth"
+	"github.com/franzudev/echolocal/internal/feature/chromecast"
+	"github.com/franzudev/echolocal/internal/feature/sendspin"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func featuresPage() *sharedshell.Page {

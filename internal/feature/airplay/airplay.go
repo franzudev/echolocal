@@ -4,17 +4,17 @@ import (
 	"log/slog"
 	"sync"
 
-	sharedairplay "github.com/ygelfand/libcountertop/pkg/media/airplay"
-	"github.com/ygelfand/libcountertop/pkg/media/playback"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedairplay "github.com/franzudev/libcountertop/pkg/media/airplay"
+	"github.com/franzudev/libcountertop/pkg/media/playback"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/android/firewall"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/playout"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/parts"
+	"github.com/franzudev/echolocal/internal/android/firewall"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/playout"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/parts"
 )
 
 func init() {

@@ -5,7 +5,7 @@ package parts
 import (
 	_ "embed"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 //go:embed payload/echolocal-surface

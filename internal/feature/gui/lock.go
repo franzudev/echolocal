@@ -3,10 +3,10 @@
 package gui
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/feature/lock"
+	"github.com/franzudev/echolocal/internal/feature/lock"
 )
 
 func extendLock(look *widgets.UI, o *screens.Options, _ func() *screens.App) {

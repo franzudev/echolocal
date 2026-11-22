@@ -3,7 +3,7 @@ package update
 import (
 	"context"
 
-	"github.com/ygelfand/libcountertop/pkg/network/releases"
+	"github.com/franzudev/libcountertop/pkg/network/releases"
 )
 
 type Channel int
@@ -15,7 +15,7 @@ const (
 	Dev
 )
 
-const repo = "https://github.com/ygelfand/echolocal"
+const repo = "https://github.com/franzudev/echolocal"
 
 func (c Channel) Label() string {
 	switch c {

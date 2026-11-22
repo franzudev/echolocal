@@ -8,9 +8,9 @@ import (
 	"github.com/charmbracelet/colorprofile"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/ygelfand/libcountertop/pkg/host/prompt"
+	"github.com/franzudev/libcountertop/pkg/host/prompt"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var cfgFile string

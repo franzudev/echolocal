@@ -3,14 +3,14 @@ package photos
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/media/photos"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/media/photos"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/product"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/hardware/display"
 )
 
 type componentPhotos struct{ *photos.Library }

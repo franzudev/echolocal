@@ -1,10 +1,10 @@
 package media
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/media/pcm"
+	"github.com/franzudev/libcountertop/pkg/media/pcm"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func NewStream(sound *speaker.Driver, out *speaker.Player, changed func()) *pcm.Stream {

@@ -3,15 +3,15 @@
 package gui
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/display/mirror"
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/mirror"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/commands"
-	"github.com/ygelfand/echolocal/internal/feature/settings"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/commands"
+	"github.com/franzudev/echolocal/internal/feature/settings"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func extendMirror(look *widgets.UI, o *screens.Options, _ func() *screens.App) {

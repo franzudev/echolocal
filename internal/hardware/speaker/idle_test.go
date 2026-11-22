@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 var start = time.Date(2026, 11, 10, 12, 0, 0, 0, time.UTC)

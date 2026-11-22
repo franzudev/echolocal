@@ -3,21 +3,21 @@
 package settings
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/assistant/turn"
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	sharedha "github.com/ygelfand/libcountertop/pkg/homeassistant"
+	"github.com/franzudev/libcountertop/pkg/assistant/turn"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	sharedha "github.com/franzudev/libcountertop/pkg/homeassistant"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/arbitration"
-	"github.com/ygelfand/echolocal/internal/feature/detect"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/tones"
-	"github.com/ygelfand/echolocal/internal/feature/voicematch/panel"
-	"github.com/ygelfand/echolocal/internal/feature/wakeword"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/lib/wake"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/arbitration"
+	"github.com/franzudev/echolocal/internal/feature/detect"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/tones"
+	"github.com/franzudev/echolocal/internal/feature/voicematch/panel"
+	"github.com/franzudev/echolocal/internal/feature/wakeword"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/lib/wake"
 )
 
 func assistantPages() *sharedsettings.AssistantPages {

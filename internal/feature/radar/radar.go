@@ -5,10 +5,10 @@ package radar
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/radar"
+	"github.com/franzudev/libcountertop/pkg/radar"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/product"
 )
 
 var get = sync.OnceValue(

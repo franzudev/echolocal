@@ -1,6 +1,6 @@
 package sysimg
 
-import "github.com/ygelfand/echolocal/internal/host/bootimg"
+import "github.com/franzudev/echolocal/internal/host/bootimg"
 
 type Layout struct {
 	Partitions []Partition

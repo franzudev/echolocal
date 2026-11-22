@@ -1,15 +1,15 @@
 package sendspin
 
 import (
-	core "github.com/ygelfand/libcountertop/pkg/audio/sendspin"
-	"github.com/ygelfand/libcountertop/pkg/audio/sound"
-	sharedvolume "github.com/ygelfand/libcountertop/pkg/audio/volume"
-	sharedplayer "github.com/ygelfand/libcountertop/pkg/media/sendspin"
+	core "github.com/franzudev/libcountertop/pkg/audio/sendspin"
+	"github.com/franzudev/libcountertop/pkg/audio/sound"
+	sharedvolume "github.com/franzudev/libcountertop/pkg/audio/volume"
+	sharedplayer "github.com/franzudev/libcountertop/pkg/media/sendspin"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 const Port = core.Port

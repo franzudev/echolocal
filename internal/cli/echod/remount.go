@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/echolocal/internal/update"
+	"github.com/franzudev/echolocal/internal/update"
 )
 
 // The root source is /dev/root with no node: mount(8) fails, mount(2) with no source works.

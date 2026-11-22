@@ -1,12 +1,12 @@
 package config
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
-	"github.com/ygelfand/libcountertop/pkg/settings/storage"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/settings/storage"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/defaults"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/defaults"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 type Config struct {

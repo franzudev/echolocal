@@ -7,14 +7,14 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/display/lockview"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/lockview"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func init() { component.Register(sharedcomponent.Device, Get) }

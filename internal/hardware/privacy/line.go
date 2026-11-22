@@ -3,7 +3,7 @@ package privacy
 import (
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/hardware/gpio"
+	"github.com/franzudev/echolocal/internal/hardware/gpio"
 )
 
 type line struct{ *gpio.Mute }

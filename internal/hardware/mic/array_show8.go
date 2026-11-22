@@ -2,7 +2,7 @@
 
 package mic
 
-import "github.com/ygelfand/echolocal/internal/lib/subband"
+import "github.com/franzudev/echolocal/internal/lib/subband"
 
 // Device 22 offers 16 kHz, S24_3LE, 6 channels; ch0-3 are the microphones and ch4/ch5 read silent.
 const (

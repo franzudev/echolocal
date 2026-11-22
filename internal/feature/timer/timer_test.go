@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/hardware/led"
 )
 
 func lit(frame []led.Color) int {

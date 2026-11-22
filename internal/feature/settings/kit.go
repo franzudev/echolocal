@@ -5,12 +5,12 @@ package settings
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/display/previews"
-	"github.com/ygelfand/libcountertop/pkg/display/theme"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
-	schema "github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/previews"
+	"github.com/franzudev/libcountertop/pkg/display/theme"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
+	schema "github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 var previewKit = sync.OnceValue(func() previews.Kit {

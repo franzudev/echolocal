@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/input"
+	"github.com/franzudev/libcountertop/pkg/input"
 )
 
 func press(c *Controller, down map[uint16]*held, code uint16, at, until uint64) {

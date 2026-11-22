@@ -3,7 +3,7 @@ package defaults
 import (
 	"sync"
 
-	"github.com/ygelfand/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/board"
 )
 
 type Set struct {

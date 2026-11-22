@@ -3,10 +3,10 @@ package display
 import (
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/display/geometry"
+	"github.com/franzudev/libcountertop/pkg/display/geometry"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
 )
 
 func TestTheShowsAreMountedLandscapeInverted(t *testing.T) {

@@ -3,20 +3,20 @@ package product
 import (
 	"sync"
 
-	sharedproduct "github.com/ygelfand/libcountertop/pkg/runtime/product"
+	sharedproduct "github.com/franzudev/libcountertop/pkg/runtime/product"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/states"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/states"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var get = sync.OnceValue(func() sharedproduct.Context {
 	return sharedproduct.Context{
 		Name:       layout.Manufacturer,
 		Version:    layout.Version,
-		Site:       "github.com/ygelfand/echolocal",
+		Site:       "github.com/franzudev/echolocal",
 		StateDir:   layout.StateDir,
 		Controller: homeassistant.Get(),
 		States:     states.Get(),

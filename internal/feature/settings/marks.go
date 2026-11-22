@@ -3,10 +3,10 @@
 package settings
 
 import (
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	tesseraview "github.com/ygelfand/libcountertop/pkg/tessera/widgets"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	tesseraview "github.com/franzudev/libcountertop/pkg/tessera/widgets"
 
-	echoui "github.com/ygelfand/echolocal/internal/ui"
+	echoui "github.com/franzudev/echolocal/internal/ui"
 )
 
 func modeMarks() sharedsettings.ModeMarks {

@@ -5,14 +5,14 @@ package gui
 import (
 	gogui "github.com/go-gui-org/go-gui/gui"
 
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	"github.com/ygelfand/libcountertop/pkg/display/shopping"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	"github.com/franzudev/libcountertop/pkg/display/shopping"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/todo"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/todo"
 )
 
 func extendShopping(look *widgets.UI, o *screens.Options, app func() *screens.App) {

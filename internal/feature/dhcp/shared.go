@@ -4,14 +4,14 @@ import (
 	"sync"
 	"time"
 
-	shared "github.com/ygelfand/libcountertop/pkg/network/dhcp"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
-	"github.com/ygelfand/libcountertop/pkg/runtime/startup"
+	shared "github.com/franzudev/libcountertop/pkg/network/dhcp"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
+	"github.com/franzudev/libcountertop/pkg/runtime/startup"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/hardware/wifi"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/hardware/wifi"
 )
 
 type Client struct{ *shared.Client }

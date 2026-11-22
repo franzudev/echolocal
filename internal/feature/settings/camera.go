@@ -5,16 +5,16 @@ package settings
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/camera/live"
-	sharedpreview "github.com/ygelfand/libcountertop/pkg/display/camerapreview"
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	"github.com/ygelfand/libcountertop/pkg/say"
+	"github.com/franzudev/libcountertop/pkg/camera/live"
+	sharedpreview "github.com/franzudev/libcountertop/pkg/display/camerapreview"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	"github.com/franzudev/libcountertop/pkg/say"
 
-	"github.com/ygelfand/echolocal/internal/feature/livecam"
-	"github.com/ygelfand/echolocal/internal/feature/rtspd"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/feature/livecam"
+	"github.com/franzudev/echolocal/internal/feature/rtspd"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/hardware/display"
 )
 
 var Preview = sync.OnceValue(func() *sharedpreview.Preview {

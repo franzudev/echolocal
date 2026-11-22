@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/component"
 )
 
 var registered = []string{

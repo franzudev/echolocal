@@ -4,10 +4,10 @@ package control
 
 import (
 	"github.com/spf13/cobra"
-	harness "github.com/ygelfand/libcountertop/pkg/runtime/control"
-	"github.com/ygelfand/libcountertop/pkg/runtime/control/cameracmd"
+	harness "github.com/franzudev/libcountertop/pkg/runtime/control"
+	"github.com/franzudev/libcountertop/pkg/runtime/control/cameracmd"
 
-	"github.com/ygelfand/echolocal/internal/feature/vision"
+	"github.com/franzudev/echolocal/internal/feature/vision"
 )
 
 func cameraCommand() *cobra.Command {

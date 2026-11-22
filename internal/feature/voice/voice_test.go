@@ -3,11 +3,11 @@ package voice
 import (
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/inference/wake"
-	"github.com/ygelfand/libcountertop/pkg/inference/wakeslots"
+	"github.com/franzudev/libcountertop/pkg/inference/wake"
+	"github.com/franzudev/libcountertop/pkg/inference/wakeslots"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/wakeword"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/wakeword"
 )
 
 func TestWakeWordsPreselectsTheDefault(t *testing.T) {

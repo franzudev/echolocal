@@ -3,8 +3,8 @@ package voice
 import (
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/feature/light"
-	"github.com/ygelfand/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/feature/light"
+	"github.com/franzudev/echolocal/internal/hardware/led"
 )
 
 type turnEffects struct{ claim *led.Claim }

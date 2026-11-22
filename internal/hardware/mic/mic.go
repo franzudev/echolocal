@@ -9,19 +9,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/voicematch"
-	"github.com/ygelfand/libcountertop/pkg/audio/aec"
-	"github.com/ygelfand/libcountertop/pkg/audio/alsa"
-	"github.com/ygelfand/libcountertop/pkg/audio/capture"
-	"github.com/ygelfand/libcountertop/pkg/audio/level"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
+	"github.com/franzudev/libcountertop/pkg/assistant/voicematch"
+	"github.com/franzudev/libcountertop/pkg/audio/aec"
+	"github.com/franzudev/libcountertop/pkg/audio/alsa"
+	"github.com/franzudev/libcountertop/pkg/audio/capture"
+	"github.com/franzudev/libcountertop/pkg/audio/level"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
 
-	"github.com/ygelfand/echolocal/internal/android/prop"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/lib/audio"
-	"github.com/ygelfand/echolocal/internal/lib/subband"
+	"github.com/franzudev/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/lib/audio"
+	"github.com/franzudev/echolocal/internal/lib/subband"
 )
 
 const (

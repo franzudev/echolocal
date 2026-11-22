@@ -3,15 +3,15 @@
 package call
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/display/callvideo"
-	"github.com/ygelfand/libcountertop/pkg/display/callview"
-	sharedcall "github.com/ygelfand/libcountertop/pkg/media/call"
+	"github.com/franzudev/libcountertop/pkg/display/callvideo"
+	"github.com/franzudev/libcountertop/pkg/display/callview"
+	sharedcall "github.com/franzudev/libcountertop/pkg/media/call"
 
-	"github.com/ygelfand/echolocal/internal/feature/livecam"
-	"github.com/ygelfand/echolocal/internal/feature/message"
-	"github.com/ygelfand/echolocal/internal/feature/privacy"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/feature/livecam"
+	"github.com/franzudev/echolocal/internal/feature/message"
+	"github.com/franzudev/echolocal/internal/feature/privacy"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/hardware/display"
 )
 
 func configureSettings(c *sharedcall.Calls) {}

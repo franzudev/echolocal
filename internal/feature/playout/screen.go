@@ -5,15 +5,15 @@ package playout
 import (
 	"context"
 
-	"github.com/ygelfand/libcountertop/pkg/display/geometry"
-	"github.com/ygelfand/libcountertop/pkg/display/playoutscreen"
-	"github.com/ygelfand/libcountertop/pkg/display/video"
-	"github.com/ygelfand/libcountertop/pkg/media/playout"
-	"github.com/ygelfand/libcountertop/pkg/media/videostream"
+	"github.com/franzudev/libcountertop/pkg/display/geometry"
+	"github.com/franzudev/libcountertop/pkg/display/playoutscreen"
+	"github.com/franzudev/libcountertop/pkg/display/video"
+	"github.com/franzudev/libcountertop/pkg/media/playout"
+	"github.com/franzudev/libcountertop/pkg/media/videostream"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/videoplayer"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/videoplayer"
+	"github.com/franzudev/echolocal/internal/hardware/display"
 )
 
 func screen() playout.Screen {

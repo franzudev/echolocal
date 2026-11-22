@@ -3,14 +3,14 @@ package apps
 import (
 	"sync"
 
-	sharedapps "github.com/ygelfand/libcountertop/pkg/display/apps"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedapps "github.com/franzudev/libcountertop/pkg/display/apps"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/drawer"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/drawer"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func init() {

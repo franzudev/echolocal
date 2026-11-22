@@ -4,15 +4,15 @@ import (
 	"log/slog"
 	"sync"
 
-	sharedplayer "github.com/ygelfand/libcountertop/pkg/media/sendspin"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedplayer "github.com/franzudev/libcountertop/pkg/media/sendspin"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/android/firewall"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/timesync"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/android/firewall"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/timesync"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 type componentPlayer struct{ *sharedplayer.Player }

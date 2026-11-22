@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
-	"github.com/ygelfand/libcountertop/pkg/host/prompt"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/prompt"
 
-	"github.com/ygelfand/echolocal/internal/host/installer"
+	"github.com/franzudev/echolocal/internal/host/installer"
 )
 
 type rebootChoice int

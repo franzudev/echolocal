@@ -3,11 +3,11 @@ package activity
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/activity"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/assistant/activity"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func init() { component.Register(sharedcomponent.Device, Get) }

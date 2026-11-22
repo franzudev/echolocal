@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 // Amazon's firewall.sh sets INPUT policy DROP and allows only its own ports.

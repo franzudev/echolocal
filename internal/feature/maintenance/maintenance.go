@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/recording"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/recording"
 )
 
 const Period = 5 * time.Minute

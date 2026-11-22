@@ -6,15 +6,15 @@ import (
 	"net/http"
 	"sync"
 
-	sharedpeer "github.com/ygelfand/libcountertop/pkg/network/peer"
-	"github.com/ygelfand/libcountertop/pkg/network/trust"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	sharedpeer "github.com/franzudev/libcountertop/pkg/network/peer"
+	"github.com/franzudev/libcountertop/pkg/network/trust"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/network"
-	"github.com/ygelfand/echolocal/internal/feature/web"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/network"
+	"github.com/franzudev/echolocal/internal/feature/web"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var Trust = sync.OnceValue(func() *trust.Trust {

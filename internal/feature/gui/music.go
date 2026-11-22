@@ -5,20 +5,20 @@ package gui
 import (
 	gogui "github.com/go-gui-org/go-gui/gui"
 
-	"github.com/ygelfand/libcountertop/pkg/display/musicapp"
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
-	"github.com/ygelfand/libcountertop/pkg/fetch"
-	"github.com/ygelfand/libcountertop/pkg/homeassistant/musicassistant"
+	"github.com/franzudev/libcountertop/pkg/display/musicapp"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/fetch"
+	"github.com/franzudev/libcountertop/pkg/homeassistant/musicassistant"
 
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/cameras"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/product"
-	"github.com/ygelfand/echolocal/internal/feature/sendspin"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/ui"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/cameras"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/feature/sendspin"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/ui"
 )
 
 func extendMusic(look *widgets.UI, o *screens.Options, app func() *screens.App) {

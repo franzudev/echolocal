@@ -3,9 +3,9 @@ package boot
 import (
 	"context"
 
-	"github.com/ygelfand/libcountertop/pkg/runtime/safe"
+	"github.com/franzudev/libcountertop/pkg/runtime/safe"
 
-	"github.com/ygelfand/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/hardware/led"
 )
 
 func startSplash(ctx context.Context, leds *led.Driver, ready func() bool) {

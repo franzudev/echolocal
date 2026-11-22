@@ -2,7 +2,7 @@
 
 package mic
 
-import "github.com/ygelfand/echolocal/internal/lib/subband"
+import "github.com/franzudev/echolocal/internal/lib/subband"
 
 const (
 	Channels = 6

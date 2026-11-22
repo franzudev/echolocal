@@ -7,17 +7,17 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/hook"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/hook"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/mute"
-	"github.com/ygelfand/echolocal/internal/feature/screen"
-	"github.com/ygelfand/echolocal/internal/hardware/buttons"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/mute"
+	"github.com/franzudev/echolocal/internal/feature/screen"
+	"github.com/franzudev/echolocal/internal/hardware/buttons"
 )
 
 func init() {

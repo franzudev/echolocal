@@ -5,20 +5,20 @@ package gui
 import (
 	gogui "github.com/go-gui-org/go-gui/gui"
 
-	"github.com/ygelfand/libcountertop/pkg/display/musicapp"
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	libshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	"github.com/ygelfand/libcountertop/pkg/display/tvapp"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
-	"github.com/ygelfand/libcountertop/pkg/fetch"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/musicapp"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	libshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	"github.com/franzudev/libcountertop/pkg/display/tvapp"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/fetch"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	featuretv "github.com/ygelfand/echolocal/internal/feature/tv"
-	"github.com/ygelfand/echolocal/internal/feature/volume"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	featuretv "github.com/franzudev/echolocal/internal/feature/tv"
+	"github.com/franzudev/echolocal/internal/feature/volume"
 )
 
 func extendTV(look *widgets.UI, o *screens.Options, app func() *screens.App) {

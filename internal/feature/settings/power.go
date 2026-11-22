@@ -3,11 +3,11 @@
 package settings
 
 import (
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
 
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/update"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/update"
 )
 
 func powerPage() *sharedshell.Page {

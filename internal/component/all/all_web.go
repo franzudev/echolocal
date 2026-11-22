@@ -1,7 +1,7 @@
 package all
 
 import (
-	_ "github.com/ygelfand/echolocal/internal/feature/certs"
-	_ "github.com/ygelfand/echolocal/internal/feature/frontend"
-	_ "github.com/ygelfand/echolocal/internal/feature/web"
+	_ "github.com/franzudev/echolocal/internal/feature/certs"
+	_ "github.com/franzudev/echolocal/internal/feature/frontend"
+	_ "github.com/franzudev/echolocal/internal/feature/web"
 )

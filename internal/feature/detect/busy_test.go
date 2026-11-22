@@ -3,7 +3,7 @@ package detect
 import (
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/hardware/led"
 )
 
 type warm map[int]bool

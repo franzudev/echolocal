@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/fft"
+	"github.com/franzudev/libcountertop/pkg/audio/fft"
 )
 
 // The vendor coefficients are not ours to ship. ECHOLOCAL_VENDOR_TUNING names the tuning to load

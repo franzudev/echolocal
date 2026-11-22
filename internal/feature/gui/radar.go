@@ -7,16 +7,16 @@ import (
 
 	gogui "github.com/go-gui-org/go-gui/gui"
 
-	"github.com/ygelfand/libcountertop/pkg/display/radarview"
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/radarview"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/commands"
-	"github.com/ygelfand/echolocal/internal/feature/radar"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/commands"
+	"github.com/franzudev/echolocal/internal/feature/radar"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func extendRadar(look *widgets.UI, o *screens.Options, app func() *screens.App) {

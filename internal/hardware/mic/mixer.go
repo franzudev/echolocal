@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/lib/subband"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/lib/subband"
 )
 
 type Mixer interface {

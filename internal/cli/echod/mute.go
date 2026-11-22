@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/echolocal/internal/hardware/privacy"
+	"github.com/franzudev/echolocal/internal/hardware/privacy"
 )
 
 func newMuteCmd() *cobra.Command {

@@ -5,27 +5,27 @@ package doorbell
 import (
 	"sync"
 
-	"github.com/ygelfand/echolocal/internal/feature/dashboard"
+	"github.com/franzudev/echolocal/internal/feature/dashboard"
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	shared "github.com/ygelfand/libcountertop/pkg/camera/doorbell"
-	"github.com/ygelfand/libcountertop/pkg/display/doorbellview"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	shared "github.com/franzudev/libcountertop/pkg/camera/doorbell"
+	"github.com/franzudev/libcountertop/pkg/display/doorbellview"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/alerts"
-	"github.com/ygelfand/echolocal/internal/feature/cameras"
-	"github.com/ygelfand/echolocal/internal/feature/idle"
-	"github.com/ygelfand/echolocal/internal/feature/message"
-	"github.com/ygelfand/echolocal/internal/feature/product"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/alerts"
+	"github.com/franzudev/echolocal/internal/feature/cameras"
+	"github.com/franzudev/echolocal/internal/feature/idle"
+	"github.com/franzudev/echolocal/internal/feature/message"
+	"github.com/franzudev/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func init() {

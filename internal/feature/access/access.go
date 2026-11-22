@@ -6,13 +6,13 @@ import (
 	"strconv"
 	"sync"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/system/access"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/system/access"
 
-	"github.com/ygelfand/echolocal/internal/android/firewall"
-	"github.com/ygelfand/echolocal/internal/android/prop"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/android/firewall"
+	"github.com/franzudev/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func init() {

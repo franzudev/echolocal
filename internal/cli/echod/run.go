@@ -9,8 +9,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/echolocal/internal/boot"
-	"github.com/ygelfand/echolocal/internal/logging"
+	"github.com/franzudev/echolocal/internal/boot"
+	"github.com/franzudev/echolocal/internal/logging"
 )
 
 func newRunCmd() *cobra.Command {

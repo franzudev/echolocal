@@ -4,17 +4,17 @@ package chromecast
 
 import (
 	esphome "github.com/ygelfand/go-esphome-device"
-	"github.com/ygelfand/libcountertop/pkg/media/cast"
-	castpreferences "github.com/ygelfand/libcountertop/pkg/media/cast/preferences"
-	"github.com/ygelfand/libcountertop/pkg/media/cast/protocols/youtube"
-	"github.com/ygelfand/libcountertop/pkg/media/castreceiver"
-	"github.com/ygelfand/libcountertop/pkg/media/playback"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/media/cast"
+	castpreferences "github.com/franzudev/libcountertop/pkg/media/cast/preferences"
+	"github.com/franzudev/libcountertop/pkg/media/cast/protocols/youtube"
+	"github.com/franzudev/libcountertop/pkg/media/castreceiver"
+	"github.com/franzudev/libcountertop/pkg/media/playback"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func init() {

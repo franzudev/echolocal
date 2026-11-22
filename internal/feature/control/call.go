@@ -4,11 +4,11 @@ package control
 
 import (
 	"github.com/spf13/cobra"
-	harness "github.com/ygelfand/libcountertop/pkg/runtime/control"
-	sharedcmd "github.com/ygelfand/libcountertop/pkg/runtime/control/callcmd"
+	harness "github.com/franzudev/libcountertop/pkg/runtime/control"
+	sharedcmd "github.com/franzudev/libcountertop/pkg/runtime/control/callcmd"
 
-	"github.com/ygelfand/echolocal/internal/feature/call"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/call"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
 )
 
 func callCommand() *cobra.Command {

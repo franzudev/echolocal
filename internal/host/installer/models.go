@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/ygelfand/echolocal/internal/host/assets"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/host/assets"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func installModels(r *run) (string, bool, error) {

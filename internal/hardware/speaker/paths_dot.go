@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"slices"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
 )
 
 var initSequence = []kctl{

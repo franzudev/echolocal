@@ -3,7 +3,7 @@ package parts
 import (
 	"syscall"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func setLabel(path string) error {

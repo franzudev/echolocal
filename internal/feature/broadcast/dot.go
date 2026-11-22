@@ -2,6 +2,6 @@
 
 package broadcast
 
-import shared "github.com/ygelfand/libcountertop/pkg/media/broadcast"
+import shared "github.com/franzudev/libcountertop/pkg/media/broadcast"
 
 func messages() shared.Messages { return nil }

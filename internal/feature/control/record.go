@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	capture "github.com/ygelfand/libcountertop/pkg/audio/capture"
+	capture "github.com/franzudev/libcountertop/pkg/audio/capture"
 
 	"github.com/spf13/cobra"
 
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
 )
 
 const (

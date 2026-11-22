@@ -3,15 +3,15 @@ package volume
 import (
 	"sync"
 
-	sharedvolume "github.com/ygelfand/libcountertop/pkg/audio/volume"
-	sharedview "github.com/ygelfand/libcountertop/pkg/display/volume"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedvolume "github.com/franzudev/libcountertop/pkg/audio/volume"
+	sharedview "github.com/franzudev/libcountertop/pkg/display/volume"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func init() {

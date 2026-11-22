@@ -1,13 +1,13 @@
 package splash
 
 import (
-	bootview "github.com/ygelfand/libcountertop/pkg/display/boot"
-	"github.com/ygelfand/libcountertop/pkg/display/panel"
-	sharedui "github.com/ygelfand/libcountertop/pkg/display/ui"
+	bootview "github.com/franzudev/libcountertop/pkg/display/boot"
+	"github.com/franzudev/libcountertop/pkg/display/panel"
+	sharedui "github.com/franzudev/libcountertop/pkg/display/ui"
 
-	"github.com/ygelfand/echolocal/internal/hardware/display"
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/ui"
+	"github.com/franzudev/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/ui"
 )
 
 func init() { display.Get().Stranded(drawStranded) }

@@ -13,11 +13,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/zserge/microwakeword"
 
-	"github.com/ygelfand/libcountertop/pkg/inference/wake"
+	"github.com/franzudev/libcountertop/pkg/inference/wake"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func newWakeCmd() *cobra.Command {

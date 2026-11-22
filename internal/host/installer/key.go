@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	esphome "github.com/ygelfand/go-esphome-device"
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var ErrNoKey = errors.New("device has no encryption key")

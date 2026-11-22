@@ -3,7 +3,7 @@
 package all
 
 import (
-	_ "github.com/ygelfand/echolocal/internal/feature/livecam"
-	_ "github.com/ygelfand/echolocal/internal/feature/rtspd"
-	_ "github.com/ygelfand/echolocal/internal/feature/vision"
+	_ "github.com/franzudev/echolocal/internal/feature/livecam"
+	_ "github.com/franzudev/echolocal/internal/feature/rtspd"
+	_ "github.com/franzudev/echolocal/internal/feature/vision"
 )

@@ -6,9 +6,9 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/ygelfand/echolocal/internal/android/prop"
-	"github.com/ygelfand/echolocal/internal/layout"
-	"github.com/ygelfand/echolocal/internal/update"
+	"github.com/franzudev/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/update"
 )
 
 //go:embed echolocal.rc

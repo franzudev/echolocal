@@ -5,10 +5,10 @@ package airplay
 import (
 	"image"
 
-	sharedairplay "github.com/ygelfand/libcountertop/pkg/media/airplay"
+	sharedairplay "github.com/franzudev/libcountertop/pkg/media/airplay"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/hardware/display"
 )
 
 func screen(o *sharedairplay.Options) {

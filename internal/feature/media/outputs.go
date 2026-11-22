@@ -1,13 +1,13 @@
 package media
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/say"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/say"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func outputControls() *setting.Controls[config.Speaker] {

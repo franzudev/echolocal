@@ -8,10 +8,10 @@ import (
 
 	"charm.land/bubbles/v2/progress"
 	tea "charm.land/bubbletea/v2"
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
-	"github.com/ygelfand/libcountertop/pkg/host/prompt"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/prompt"
 
-	"github.com/ygelfand/echolocal/internal/host/profile"
+	"github.com/franzudev/echolocal/internal/host/profile"
 )
 
 func profileFor(d *adb.Device) (profile.Profile, error) {

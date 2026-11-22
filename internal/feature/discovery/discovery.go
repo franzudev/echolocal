@@ -5,17 +5,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/arbitration"
-	"github.com/ygelfand/libcountertop/pkg/media/broadcast"
-	shared "github.com/ygelfand/libcountertop/pkg/network/discovery"
-	sharedpeer "github.com/ygelfand/libcountertop/pkg/network/peer"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/assistant/arbitration"
+	"github.com/franzudev/libcountertop/pkg/media/broadcast"
+	shared "github.com/franzudev/libcountertop/pkg/network/discovery"
+	sharedpeer "github.com/franzudev/libcountertop/pkg/network/peer"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/web"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/web"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 type identity struct{}

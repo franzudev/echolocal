@@ -4,9 +4,9 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/runtime/remember"
+	"github.com/franzudev/libcountertop/pkg/runtime/remember"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var get = sync.OnceValue(func() *remember.Store {

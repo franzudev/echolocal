@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/alsa"
-	"github.com/ygelfand/libcountertop/pkg/audio/resample"
+	"github.com/franzudev/libcountertop/pkg/audio/alsa"
+	"github.com/franzudev/libcountertop/pkg/audio/resample"
 )
 
 const (

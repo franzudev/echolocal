@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/timer"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/assistant/timer"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/alerts"
-	"github.com/ygelfand/echolocal/internal/hardware/led"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/alerts"
+	"github.com/franzudev/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func init() {

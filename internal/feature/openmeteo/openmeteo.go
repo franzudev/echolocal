@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/fetch"
-	haweather "github.com/ygelfand/libcountertop/pkg/homeassistant/weather"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
+	"github.com/franzudev/libcountertop/pkg/fetch"
+	haweather "github.com/franzudev/libcountertop/pkg/homeassistant/weather"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 // Amazon's animation scripts run a ledctrl that waits forever on a binder service echod lacks.

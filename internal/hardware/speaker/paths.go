@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 type Output string

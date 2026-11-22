@@ -3,15 +3,15 @@ package network
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/network/policy"
-	sharedwifi "github.com/ygelfand/libcountertop/pkg/network/wifi"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/network/policy"
+	sharedwifi "github.com/franzudev/libcountertop/pkg/network/wifi"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/dhcp"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	hwwifi "github.com/ygelfand/echolocal/internal/hardware/wifi"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/dhcp"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	hwwifi "github.com/franzudev/echolocal/internal/hardware/wifi"
 )
 
 func init() {

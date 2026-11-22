@@ -6,11 +6,11 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/homeassistant/nativeapi"
+	"github.com/franzudev/libcountertop/pkg/homeassistant/nativeapi"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	_ "github.com/ygelfand/echolocal/internal/component/all"
-	"github.com/ygelfand/echolocal/internal/feature/api"
+	"github.com/franzudev/echolocal/internal/component"
+	_ "github.com/franzudev/echolocal/internal/component/all"
+	"github.com/franzudev/echolocal/internal/feature/api"
 )
 
 func ids(ds []esphome.Device) []uint32 {

@@ -3,10 +3,10 @@ package mic
 import (
 	"log/slog"
 
-	"github.com/ygelfand/libcountertop/pkg/audio/aec"
-	"github.com/ygelfand/libcountertop/pkg/audio/capture"
+	"github.com/franzudev/libcountertop/pkg/audio/aec"
+	"github.com/franzudev/libcountertop/pkg/audio/capture"
 
-	"github.com/ygelfand/echolocal/internal/lib/audio"
+	"github.com/franzudev/echolocal/internal/lib/audio"
 )
 
 func newSuppressor(c *aec.Canceller) *aec.Preprocessor {

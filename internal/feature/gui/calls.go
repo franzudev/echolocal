@@ -3,18 +3,18 @@
 package gui
 
 import (
-	sharedvolume "github.com/ygelfand/libcountertop/pkg/audio/volume"
-	"github.com/ygelfand/libcountertop/pkg/display/callview"
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
+	sharedvolume "github.com/franzudev/libcountertop/pkg/audio/volume"
+	"github.com/franzudev/libcountertop/pkg/display/callview"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/call"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/volume"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/call"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/volume"
 )
 
 func extendCalls(look *widgets.UI, o *screens.Options, _ func() *screens.App) {

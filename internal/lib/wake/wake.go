@@ -3,12 +3,12 @@ package wake
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/inference/gemini"
-	"github.com/ygelfand/libcountertop/pkg/inference/pryon"
-	sharedwake "github.com/ygelfand/libcountertop/pkg/inference/wake"
+	"github.com/franzudev/libcountertop/pkg/inference/gemini"
+	"github.com/franzudev/libcountertop/pkg/inference/pryon"
+	sharedwake "github.com/franzudev/libcountertop/pkg/inference/wake"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func TestTheDotOffersDelayAndSum(t *testing.T) {

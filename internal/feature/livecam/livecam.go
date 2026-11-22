@@ -4,20 +4,20 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/camera/camerafeed"
-	"github.com/ygelfand/libcountertop/pkg/camera/live"
-	"github.com/ygelfand/libcountertop/pkg/camera/session"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/camera/camerafeed"
+	"github.com/franzudev/libcountertop/pkg/camera/live"
+	"github.com/franzudev/libcountertop/pkg/camera/session"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/android/prop"
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/hardware/buttons"
-	"github.com/ygelfand/echolocal/internal/hardware/mtkcamera"
-	"github.com/ygelfand/echolocal/internal/hardware/privacy"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/android/prop"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/hardware/buttons"
+	"github.com/franzudev/echolocal/internal/hardware/mtkcamera"
+	"github.com/franzudev/echolocal/internal/hardware/privacy"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func init() {

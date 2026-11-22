@@ -1,12 +1,12 @@
 package speaker
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/audio/tone"
-	"github.com/ygelfand/libcountertop/pkg/audio/upsample"
+	"github.com/franzudev/libcountertop/pkg/audio/tone"
+	"github.com/franzudev/libcountertop/pkg/audio/upsample"
 
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func WakeTones() []schema.Chime {

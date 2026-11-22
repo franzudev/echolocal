@@ -2,6 +2,6 @@
 
 package playout
 
-import "github.com/ygelfand/libcountertop/pkg/media/playout"
+import "github.com/franzudev/libcountertop/pkg/media/playout"
 
 func screen() playout.Screen { return nil }

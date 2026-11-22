@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 type recorder struct {

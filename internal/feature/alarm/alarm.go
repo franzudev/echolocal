@@ -4,16 +4,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/alarm"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/remember"
+	"github.com/franzudev/libcountertop/pkg/assistant/alarm"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/remember"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/alerts"
-	featureremember "github.com/ygelfand/echolocal/internal/feature/remember"
-	"github.com/ygelfand/echolocal/internal/feature/timesync"
-	"github.com/ygelfand/echolocal/internal/hardware/led"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/alerts"
+	featureremember "github.com/franzudev/echolocal/internal/feature/remember"
+	"github.com/franzudev/echolocal/internal/feature/timesync"
+	"github.com/franzudev/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func init() {

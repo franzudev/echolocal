@@ -1,10 +1,10 @@
 package installer
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/host/adb"
+	"github.com/franzudev/libcountertop/pkg/host/adb"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/host/sysimg"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/host/sysimg"
 )
 
 func BoardOf(d *adb.Device) board.Board {

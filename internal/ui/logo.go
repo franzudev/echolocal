@@ -1,9 +1,9 @@
 package ui
 
 import (
-	sharedui "github.com/ygelfand/libcountertop/pkg/display/ui"
+	sharedui "github.com/franzudev/libcountertop/pkg/display/ui"
 
-	"github.com/ygelfand/echolocal/internal/brand"
+	"github.com/franzudev/echolocal/internal/brand"
 )
 
 var logo = sharedui.NewLogo(brand.LogoLight, brand.LogoDark)

@@ -3,15 +3,15 @@
 package settings
 
 import (
-	sharedpages "github.com/ygelfand/libcountertop/pkg/display/settings"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
+	sharedpages "github.com/franzudev/libcountertop/pkg/display/settings"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
 
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/feature/idle"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/visuals"
-	"github.com/ygelfand/echolocal/internal/feature/weather"
-	"github.com/ygelfand/echolocal/internal/ui/visual"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/feature/idle"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/visuals"
+	"github.com/franzudev/echolocal/internal/feature/weather"
+	"github.com/franzudev/echolocal/internal/ui/visual"
 )
 
 func idlePages() *sharedpages.IdlePages {

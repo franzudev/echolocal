@@ -5,14 +5,14 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
-	"github.com/ygelfand/libcountertop/pkg/voice"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/voice"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/actions"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/actions"
 )
 
 func init() { component.Register(sharedcomponent.Device, Get, sharedcomponent.Order(42)) }

@@ -6,7 +6,7 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func Bind[T config.Labelled](sel *esphome.Select, values []T, apply func(T) T, save func(T) error) {

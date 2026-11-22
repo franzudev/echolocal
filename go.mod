@@ -1,4 +1,4 @@
-module github.com/ygelfand/echolocal
+module github.com/franzudev/echolocal
 
 go 1.27.0
 
@@ -7,11 +7,11 @@ require (
 	charm.land/bubbletea/v2 v2.0.8
 	charm.land/lipgloss/v2 v2.0.5
 	github.com/charmbracelet/colorprofile v0.4.3
+	github.com/franzudev/libcountertop v0.1.1-photoprism.1
 	github.com/go-gui-org/go-gui v0.94.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 	github.com/ygelfand/go-esphome-device v0.0.20
-	github.com/ygelfand/libcountertop v0.1.1-0.20261119232804-2c9417453f48
 	github.com/zserge/microwakeword v0.0.0-20260330234603-bfaf3840114e
 )
 
@@ -137,4 +137,4 @@ require (
 	rsc.io/qr v0.2.0 // indirect
 )
 
-replace github.com/ygelfand/libcountertop => /Users/franzu/projects/libcountertop
+replace github.com/ygelfand/libcountertop => github.com/franzudev/libcountertop v0.1.1-photoprism.1

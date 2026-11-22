@@ -3,14 +3,14 @@ package voicematch
 import (
 	"sync"
 
-	"github.com/ygelfand/libcountertop/pkg/assistant/voicematch"
-	ha "github.com/ygelfand/libcountertop/pkg/homeassistant"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/assistant/voicematch"
+	ha "github.com/franzudev/libcountertop/pkg/homeassistant"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func init() { component.Register(sharedcomponent.Device, Get) }

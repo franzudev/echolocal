@@ -3,14 +3,14 @@
 package settings
 
 import (
-	sharedsettings "github.com/ygelfand/libcountertop/pkg/display/settings"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
+	sharedsettings "github.com/franzudev/libcountertop/pkg/display/settings"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
 
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/call"
-	"github.com/ygelfand/echolocal/internal/feature/discovery"
-	"github.com/ygelfand/echolocal/internal/feature/homeassistant"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/call"
+	"github.com/franzudev/echolocal/internal/feature/discovery"
+	"github.com/franzudev/echolocal/internal/feature/homeassistant"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func callsPage() *sharedshell.Page { return callPages().Calls() }

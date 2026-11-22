@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/runtime/webapi"
+	"github.com/franzudev/libcountertop/pkg/runtime/webapi"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
 )
 
 func TestEverySettingHasItsLabels(t *testing.T) {

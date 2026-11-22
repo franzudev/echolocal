@@ -7,22 +7,22 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	sharedtone "github.com/ygelfand/libcountertop/pkg/audio/tone"
-	"github.com/ygelfand/libcountertop/pkg/hook"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	setting "github.com/ygelfand/libcountertop/pkg/settings"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	sharedtone "github.com/franzudev/libcountertop/pkg/audio/tone"
+	"github.com/franzudev/libcountertop/pkg/hook"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	setting "github.com/franzudev/libcountertop/pkg/settings"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/feedback"
-	"github.com/ygelfand/echolocal/internal/feature/tones"
-	"github.com/ygelfand/echolocal/internal/hardware/buttons"
-	"github.com/ygelfand/echolocal/internal/hardware/indicate"
-	"github.com/ygelfand/echolocal/internal/hardware/led"
-	"github.com/ygelfand/echolocal/internal/hardware/privacy"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/feedback"
+	"github.com/franzudev/echolocal/internal/feature/tones"
+	"github.com/franzudev/echolocal/internal/hardware/buttons"
+	"github.com/franzudev/echolocal/internal/hardware/indicate"
+	"github.com/franzudev/echolocal/internal/hardware/led"
+	"github.com/franzudev/echolocal/internal/hardware/privacy"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func init() {

@@ -3,7 +3,7 @@ package visual
 import (
 	"embed"
 
-	sharedvisual "github.com/ygelfand/libcountertop/pkg/display/visual"
+	sharedvisual "github.com/franzudev/libcountertop/pkg/display/visual"
 )
 
 //go:embed thumbs/*.jpg

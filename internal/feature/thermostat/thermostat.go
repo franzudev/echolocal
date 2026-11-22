@@ -8,19 +8,19 @@ import (
 
 	esphome "github.com/ygelfand/go-esphome-device"
 
-	"github.com/ygelfand/libcountertop/pkg/display/thermostatview"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
-	shared "github.com/ygelfand/libcountertop/pkg/homeassistant/thermostat"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/franzudev/libcountertop/pkg/display/thermostatview"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
+	shared "github.com/franzudev/libcountertop/pkg/homeassistant/thermostat"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/settings/schema"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/dashboard"
-	"github.com/ygelfand/echolocal/internal/feature/product"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/feature/weather"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/dashboard"
+	"github.com/franzudev/echolocal/internal/feature/product"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/feature/weather"
 )
 
 func init() {

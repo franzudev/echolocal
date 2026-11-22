@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 func listenAddr() string { return fmt.Sprintf(":%d", layout.Port) }

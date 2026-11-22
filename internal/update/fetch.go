@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	httpfetch "github.com/ygelfand/libcountertop/pkg/fetch"
+	httpfetch "github.com/franzudev/libcountertop/pkg/fetch"
 )
 
 func At(ctx context.Context, src string) (Manifest, error) {

@@ -2,6 +2,6 @@
 
 package actions
 
-import "github.com/ygelfand/echolocal/internal/feature/tv"
+import "github.com/franzudev/echolocal/internal/feature/tv"
 
 func (a *Actions) addTV() { a.reg.Add(tv.Get().VoiceAction()) }

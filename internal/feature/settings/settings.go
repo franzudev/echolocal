@@ -6,17 +6,17 @@ import (
 	"slices"
 	"sync"
 
-	shareddrawer "github.com/ygelfand/libcountertop/pkg/display/drawer"
-	sharedshell "github.com/ygelfand/libcountertop/pkg/display/shell"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/say"
+	shareddrawer "github.com/franzudev/libcountertop/pkg/display/drawer"
+	sharedshell "github.com/franzudev/libcountertop/pkg/display/shell"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/say"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/drawer"
-	"github.com/ygelfand/echolocal/internal/feature/lock"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/drawer"
+	"github.com/franzudev/echolocal/internal/feature/lock"
+	"github.com/franzudev/echolocal/internal/feature/shell"
 )
 
 func init() {

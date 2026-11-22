@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	httpfetch "github.com/ygelfand/libcountertop/pkg/fetch"
+	httpfetch "github.com/franzudev/libcountertop/pkg/fetch"
 
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 const downloadTimeout = 10 * time.Minute

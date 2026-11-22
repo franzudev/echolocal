@@ -3,23 +3,23 @@
 package gui
 
 import (
-	"github.com/ygelfand/libcountertop/pkg/audio/resample"
-	"github.com/ygelfand/libcountertop/pkg/display/musicapp"
-	"github.com/ygelfand/libcountertop/pkg/display/screens"
-	"github.com/ygelfand/libcountertop/pkg/display/video"
-	"github.com/ygelfand/libcountertop/pkg/display/widgets"
-	"github.com/ygelfand/libcountertop/pkg/display/youtubeapp"
-	"github.com/ygelfand/libcountertop/pkg/fetch"
-	"github.com/ygelfand/libcountertop/pkg/media/playback"
-	"github.com/ygelfand/libcountertop/pkg/media/youtube"
+	"github.com/franzudev/libcountertop/pkg/audio/resample"
+	"github.com/franzudev/libcountertop/pkg/display/musicapp"
+	"github.com/franzudev/libcountertop/pkg/display/screens"
+	"github.com/franzudev/libcountertop/pkg/display/video"
+	"github.com/franzudev/libcountertop/pkg/display/widgets"
+	"github.com/franzudev/libcountertop/pkg/display/youtubeapp"
+	"github.com/franzudev/libcountertop/pkg/fetch"
+	"github.com/franzudev/libcountertop/pkg/media/playback"
+	"github.com/franzudev/libcountertop/pkg/media/youtube"
 
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/apps"
-	"github.com/ygelfand/echolocal/internal/feature/playout"
-	"github.com/ygelfand/echolocal/internal/feature/shell"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/apps"
+	"github.com/franzudev/echolocal/internal/feature/playout"
+	"github.com/franzudev/echolocal/internal/feature/shell"
+	"github.com/franzudev/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
 )
 
 func extendYouTube(look *widgets.UI, o *screens.Options, _ func() *screens.App) {

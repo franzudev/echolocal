@@ -6,19 +6,19 @@ import (
 	"sync"
 	"time"
 
-	sharedvolume "github.com/ygelfand/libcountertop/pkg/audio/volume"
-	sharedspeaker "github.com/ygelfand/libcountertop/pkg/bluetooth/a2dp"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
-	"github.com/ygelfand/libcountertop/pkg/runtime/service"
+	sharedvolume "github.com/franzudev/libcountertop/pkg/audio/volume"
+	sharedspeaker "github.com/franzudev/libcountertop/pkg/bluetooth/a2dp"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
+	"github.com/franzudev/libcountertop/pkg/runtime/service"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/media"
-	"github.com/ygelfand/echolocal/internal/feature/volume"
-	"github.com/ygelfand/echolocal/internal/hardware/ble"
-	"github.com/ygelfand/echolocal/internal/hardware/speaker"
-	"github.com/ygelfand/echolocal/internal/layout"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/media"
+	"github.com/franzudev/echolocal/internal/feature/volume"
+	"github.com/franzudev/echolocal/internal/hardware/ble"
+	"github.com/franzudev/echolocal/internal/hardware/speaker"
+	"github.com/franzudev/echolocal/internal/layout"
 )
 
 var once sync.Once

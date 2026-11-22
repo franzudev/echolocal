@@ -3,18 +3,18 @@ package assistant
 import (
 	"sync"
 
-	sharedscreen "github.com/ygelfand/libcountertop/pkg/display/assistant"
-	sharedcomponent "github.com/ygelfand/libcountertop/pkg/runtime/component"
+	sharedscreen "github.com/franzudev/libcountertop/pkg/display/assistant"
+	sharedcomponent "github.com/franzudev/libcountertop/pkg/runtime/component"
 
-	"github.com/ygelfand/echolocal/internal/board"
-	"github.com/ygelfand/echolocal/internal/component"
-	"github.com/ygelfand/echolocal/internal/config"
-	"github.com/ygelfand/echolocal/internal/feature/idle"
-	"github.com/ygelfand/echolocal/internal/feature/visuals"
-	"github.com/ygelfand/echolocal/internal/feature/voice"
-	"github.com/ygelfand/echolocal/internal/hardware/display"
-	"github.com/ygelfand/echolocal/internal/hardware/gpu"
-	"github.com/ygelfand/echolocal/internal/hardware/mic"
+	"github.com/franzudev/echolocal/internal/board"
+	"github.com/franzudev/echolocal/internal/component"
+	"github.com/franzudev/echolocal/internal/config"
+	"github.com/franzudev/echolocal/internal/feature/idle"
+	"github.com/franzudev/echolocal/internal/feature/visuals"
+	"github.com/franzudev/echolocal/internal/feature/voice"
+	"github.com/franzudev/echolocal/internal/hardware/display"
+	"github.com/franzudev/echolocal/internal/hardware/gpu"
+	"github.com/franzudev/echolocal/internal/hardware/mic"
 )
 
 func init() {

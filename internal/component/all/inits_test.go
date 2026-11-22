@@ -3,7 +3,7 @@ package all
 import (
 	"testing"
 
-	"github.com/ygelfand/libcountertop/pkg/build/inits"
+	"github.com/franzudev/libcountertop/pkg/build/inits"
 )
 
 func TestNoScatteredInits(t *testing.T) {

@@ -1,6 +1,6 @@
 package subband
 
-import "github.com/ygelfand/libcountertop/pkg/audio/fft"
+import "github.com/franzudev/libcountertop/pkg/audio/fft"
 
 type analysis struct {
 	g      geometry
