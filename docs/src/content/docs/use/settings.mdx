@@ -212,7 +212,16 @@ What the page holds depends on the mode ([Dashboards](/use/dashboards/)).
 
 <Image src={sub_weather} alt="The Weather page on an Echo Show 8" class="screen" />
 
-The card needs a weather entity, picked under [Home control → Weather](#home-control).
+The card shows the embedded [Open-Meteo](https://open-meteo.com) forecast by default, refreshed
+every 15 minutes; no Home Assistant entity is needed. When it is turned off in the device's config
+file (`openmeteo.enabled: false`) or has no coordinates (`openmeteo.latitude` and
+`openmeteo.longitude`), the card falls back to a weather entity, picked under
+[Home control → Weather](#home-control). The config file only: there are no settings rows for
+Open-Meteo on the screen.
+
+```yaml
+"openmeteo": { "enabled": true, "latitude": "52.52", "longitude": "13.41" }
+```
 
 | Setting | What it does | Choices | Default | Entity |
 |---|---|---|---|---|

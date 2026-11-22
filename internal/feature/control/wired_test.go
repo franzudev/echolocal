@@ -55,6 +55,10 @@ var coverage = settingtest.Shared.With(settingtest.Coverage{
 		"Lounge.Music":    "the same",
 		"Lounge.Video":    "the same",
 		"Lounge.OnDemand": "the same",
+
+		"OpenMeteo.Enabled":   "read by the Open-Meteo poller, never written by the process",
+		"OpenMeteo.Latitude":  "the same",
+		"OpenMeteo.Longitude": "the same",
 	},
 })
 

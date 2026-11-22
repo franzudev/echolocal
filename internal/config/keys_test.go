@@ -54,6 +54,7 @@ func TestSavedKeysKeepTheirLayout(t *testing.T) {
 		"media",
 		"microphone",
 		"network",
+		"openmeteo",
 		"photos",
 		"poster",
 		"rtsp",

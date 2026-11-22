@@ -2,6 +2,7 @@ package config
 
 import (
 	"github.com/ygelfand/libcountertop/pkg/settings/schema"
+	"github.com/ygelfand/libcountertop/pkg/settings/storage"
 
 	"github.com/ygelfand/echolocal/internal/board"
 	"github.com/ygelfand/echolocal/internal/defaults"
@@ -18,6 +19,8 @@ type Config struct {
 	Ring       Ring       `json:"ring"`
 
 	Lounge schema.Lounge `json:"lounge,omitzero"`
+
+	OpenMeteo OpenMeteo `json:"openmeteo,omitzero"`
 }
 
 func Defaults() Config {
@@ -29,6 +32,7 @@ func Defaults() Config {
 		Volume:     defaultVolume(),
 		Microphone: defaultMicrophone(d),
 		Ring:       defaultRing(d),
+		OpenMeteo:  defaultOpenMeteo(),
 	}
 	c.Visual.Label = layout.Manufacturer
 	c.Diag.MinCores = d.MinCores
@@ -51,6 +55,9 @@ func (w Writer) Speaker() SpeakerWriter       { return SpeakerWriter{st: w.st} }
 func (w Writer) Volume() VolumeWriter         { return VolumeWriter{st: w.st} }
 func (w Writer) Microphone() MicrophoneWriter { return MicrophoneWriter{st: w.st} }
 func (w Writer) Ring() RingWriter             { return RingWriter{st: w.st} }
+
+// OpenMeteo updates the embedded weather provider's section.
+func (w Writer) OpenMeteo() storage.Section[OpenMeteo] { return OpenMeteoSection }
 
 type Labelled interface{ Label() string }
 

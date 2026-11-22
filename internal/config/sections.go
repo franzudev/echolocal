@@ -66,4 +66,9 @@ var (
 		func() *storage.Store[Config] { return store().Store },
 		func(c *Config) *schema.Lounge { return &c.Lounge },
 	)
+
+	OpenMeteoSection = storage.Bind(
+		func() *storage.Store[Config] { return store().Store },
+		func(c *Config) *OpenMeteo { return &c.OpenMeteo },
+	)
 )

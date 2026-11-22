@@ -70,10 +70,12 @@ adds a **Home alarm** tab once an [alarm panel](/features/home-alarm/) is picked
 
 ### Weather
 
-Pick a Home Assistant weather entity under **Settings → Home control → Weather**, then choose how it
-looks on the dashboard and on the screen saver: Compact, Stack, Card, Detail, Icon or Words, with
-or without animation, in the weather's colors or the theme's, and where it sits. The dashboard and
-the screen saver each have their own layout.
+The card shows the embedded [Open-Meteo](https://open-meteo.com) forecast by default; no Home
+Assistant entity is needed. When Open-Meteo is off in the config file, or has no coordinates, the
+card uses a Home Assistant weather entity instead. Pick one under **Settings → Home control →
+Weather**, then choose how the card looks on the dashboard and on the screen saver: Compact, Stack,
+Card, Detail, Icon or Words, with or without animation, in the weather's colors or the theme's, and
+where it sits. The dashboard and the screen saver each have their own layout.
 
 Every weather setting is on [Settings on the screen](/use/settings/#weather).
 

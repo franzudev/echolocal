@@ -97,11 +97,14 @@ On the Echo Shows only.
 
 | Setting | Default | Choices | Entity |
 |---|---|---|---|
+| `openmeteo.enabled` | On | On, Off | Config file only |
+| `openmeteo.latitude` | — | Text | Config file only |
+| `openmeteo.longitude` | — | Text | Config file only |
 | Weather alerts | Off | On, Off | `switch.<device>_screen_weather_alerts` |
 | Dashboard weather horizontal position | Right | Left, Center, Right | `select.<device>_screen_dashboard_weather_horizontal_position` |
 | Animate dashboard weather | On | On, Off | `switch.<device>_screen_animate_dashboard_weather` |
 | Weather on dashboard | On | On, Off | `switch.<device>_screen_weather_on_dashboard` |
-| Weather entity | — | Text | On the screen only |
+| Weather entity | — | Text | On the screen only (the fallback when Open-Meteo is off or has no coordinates) |
 | Dashboard weather look | Compact | Compact, Stack, Icon, Words, Card, Detail | `select.<device>_screen_dashboard_weather_look` |
 | Dashboard weather vertical position | Top | Top, Center, Bottom | `select.<device>_screen_dashboard_weather_vertical_position` |
 | Radar starting range | 200 mi | 50 mi, 100 mi, 200 mi, 300 mi, 400 mi, 600 mi, 800 mi | `select.<device>_screen_radar_starting_range` |
@@ -115,6 +118,8 @@ On the Echo Shows only.
 | Weather on screen saver | Off | On, Off | `switch.<device>_screen_weather_on_screen_saver` |
 | Dashboard weather size | Small | Nano, Micro, Mini, Small, Medium, Large | `select.<device>_screen_dashboard_weather_size` |
 | Themed dashboard weather colors | Off | On, Off | `switch.<device>_screen_themed_dashboard_weather_colors` |
+
+`Config file only` rows are device config file settings, not exposed to Home Assistant.
 
 ## Wallpaper
 

@@ -1,6 +1,6 @@
 ---
 title: Photos and wallpaper
-description: Photos from Immich and Google Photos behind the dashboard, on the screen saver and in the Photos app.
+description: Photos from Immich, Photoprism and Google Photos behind the dashboard, on the screen saver and in the Photos app.
 ---
 
 import { Steps } from '@astrojs/starlight/components';
@@ -14,8 +14,8 @@ import photoApp from '../../../assets/screens/app-photos.webp';
 
 On the Echo Shows.
 
-Photos from your [Immich](https://immich.app) library and from shared Google Photos albums can show
-in three places:
+Photos from your [Immich](https://immich.app) library, from [Photoprism](https://photoprism.app),
+and from shared Google Photos albums can show in three places:
 
 - **Wallpaper**: behind the clock on the native dashboard, changing on a schedule
 - **Screen saver**: pick **Photos** for a screen saver visual slot
@@ -24,7 +24,8 @@ in three places:
 <Image src={photoApp} alt="The full-screen Photos app showing a Google Photos sailing image in Framed fit" />
 
 Photo settings are on the device under **Settings → Display → Photos**, and in Home Assistant on
-the device's page. Turn on Immich, Google Photos or both; with both on, photos come from each.
+the device's page. Turn on Immich, Photoprism, Google Photos or any combination; with more than one
+on, photos come from each.
 
 <Image src={settings} alt="On-screen photo settings for wallpaper, the Photos app, fit, transitions and library providers" />
 
@@ -63,6 +64,38 @@ Home Assistant, say whether the connection works and what's wrong if it doesn't.
 newer is needed.
 
 <Image src={immich} alt="Immich settings: server, API key, albums, tags, people, favourites, memories and quality" />
+
+## Connect Photoprism
+
+<Steps>
+
+1. In Photoprism, create an API key under **Settings → Advanced**.
+
+2. On the device, open **Settings → Display → Photos → Photoprism**, turn on **Enable**, and set
+   **Server** to Photoprism's address, for example `http://192.168.1.20:2342`, and **API key** to
+   the key. In Home Assistant these are **Photoprism photos** (`photos_photoprism_enabled`),
+   **Photoprism server** (`photos_photoprism_server`) and **Photoprism API key**
+   (`photos_photoprism_key`).
+
+3. Narrow down which photos to show, or leave this empty for the whole library:
+
+   | Setting | Entity | |
+   |---|---|---|
+   | Albums | `photos_photoprism_albums` | Album names or UIDs, separated by commas |
+
+   Names are case-insensitive. With no albums set, every indexed photo counts. An album name
+   Photoprism doesn't know shows as "Nothing named …" in the status.
+
+4. Turn on **Settings → Display → Photos → Show wallpaper**.
+
+</Steps>
+
+The **Status** row on the Photoprism page, and **Photos Photoprism status**
+(`photos_photoprism_status`) in Home Assistant, say whether the connection works and what's wrong
+if it doesn't. "Wrong API key" means Photoprism refused the key itself.
+
+Photoprism shows albums only. Tags, people, favorites, memories and quality are Immich settings;
+faces come only from Immich.
 
 ## API key permissions
 
@@ -194,4 +227,5 @@ All three default to Fade.
 
 <Image src={transition} alt="Every photo transition: None, Fade, Slide, Zoom, Wipe and Dissolve" />
 
-[Config sync](/use/configuration/#config-sync) copies the Immich API key along with the other photo settings. Home Assistant shows the key only as set or not set.
+[Config sync](/use/configuration/#config-sync) copies the Immich and Photoprism API keys along with
+the other photo settings. Home Assistant shows the keys only as set or not set.
